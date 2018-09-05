@@ -1,0 +1,382 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CHAPTER 7 - DISCUSSION OF DESIGN IMPLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Richard Boardman PhD Thesis: Improving Tool Support for Personal Information Management
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NATBIB NOTES
+%%%%%%%%%%%%%%%%%%%
+%\citet{jon90}                ->    Jones et al. (1990) 
+%   \citet[chap.~2]{jon90}       ->    Jones et al. (1990, chap. 2)
+%   \citep{jon90}                ->    (Jones et al., 1990) 
+%   \citep[chap.~2]{jon90}       ->    (Jones et al., 1990, chap. 2) 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Design of PIM-Integration Mechanisms}
+\label{discussion:design-guidelines-discussion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Consider both PIM-general and PIM-integration (FOCUS).
+% A focus is taken on efforts to improve integration between PIM-tools, but general implications for all PIM design is also considered.  Firstly, \textbf{Section~\ref{disc:design-guidelines-discussion-pim-integration}} focuses on efforts to improve PIM-integration.  Then \textbf{Section~\ref{disc:design-guidelines-discussion-pim-general}} discusses implications for PIM design in general, including the design of specific PIM-tools.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% What experiences can be generalized beyond the specifics of WM for the design of PIM systems in general. What do the results mean for design of future PIM systems/OS developers?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PREVIOUSLY: INTEGRATION SEEN AS A GOOD THING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Integration between PIM-tools has been repeatedly put forward as a worthy design aim, e.g.~\citep{Bellotti:03,Bergman:03,Kaptelinin:03}.  However, \textbf{Chapter~\ref{chapter:review}} noted that most of the research prototypes that have been developed have been founded on designer intuition rather than on a systematic \textit{cross-tool} investigation of user needs.  Furthermore, few evaluations of PIM-integration mechanisms have been published.
+% (certainly not published work) 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RECAP C/T WORK PERFORMED
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A key aim of this research was to systematically investigate the potential to integrate PIM-tools.  % \textbf{Chapter~\ref{chapter:exploratory_study}} reported a cross-tool study which compared the nature of PIM across PIM-tools to identify routes for integration.  \textbf{Chapter~\ref{chapter:design}} proposed a new integration mechanism based on one route, WorkspaceMirror (WM), which was then evaluated in \textbf{Chapter~\ref{chapter:main-study}}.
+%%%%%%%%%%%%%%%%%%%%%%%
+% INTRO THIS SECTION
+%%%%%%%%%%%%%%%%%%%%%%%
+%\textbf{Section~\ref{discussion:theoretical-framework}} discussed the cross-tool, supporting, and ongoing nature of PIM.  This section draws on that discussion to discuss the findings from the evaluation of WM, and consider implications for PIM integration more generally. % consider implications for the design and evaluation of PIM-tools.  Findings are drawn together and discussed from throughout the thesis, including empirical findings from the exploratory study in \textbf{Chapter~\ref{chapter:exploratory_study}}, and the longitudinal evaluation of WorkspaceMirror in \textbf{Chapter~\ref{chapter:main-study}}.
+This section discusses implications for the design of more coherent, integrated PIM technologies based on the experience gained in this research.  % Firstly, the results of the WM evaluation are considered in lieu of the discussion in \textbf{Section~\ref{discussion:theoretical-framework}}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Revisiting the WM Evaluation}
+\label{disc:design-guidelines-discussion-pim-integration}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THEORETICAL PERSPECTIVE ON WM
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Extend idea of artefacts that can be designed to features that bridge across multiple tools.
+% This section, proposes a new theoretical concept, that of a 
+\textbf{Chapter~\ref{chapter:design}} described the design and implementation of a novel PIM-integration mechanism, WorkspaceMirror (WM), which allows the user to share folder structures between the file, email and bookmark collections via \textit{folder-mirroring}. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sum evaluation of WM
+% Talk about the trade-off
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pros of WM: thus easier coordination in terms of organizing, more consistent mental models for retrieval)
+WM was evaluated to explore the potential to share folder structures across PIM-tools. 
+
+\textbf{Section~\ref{main-study:discussion:evaluation}} identified a trade-off between \textit{organizational consistency} and \textit{organizational flexibility}, resulting from usage of WM:
+
+\begin{itemize}
+
+\item On one hand, folder-mirroring allows the user to improve the consistency of organizational structures in different collections of information.  Several participants welcomed this consistency and indicated that it made retrieval more straightforward.
+
+\item On the other hand, an increase in consistency reduces the user's flexibility to organize different types of information in different ways.  Participants stated that they required some flexibility so they could have different folder structures in different tools, as organizational requirements varied across them.  However, feedback indicated that top-level folders (typically based on their roles and projects) were often suitable for mirroring.  
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% Link to next section
+%%%%%%%%%%%%%%%%%%%%%%%%
+The next section offers a theoretical explanation to explain the need for organizational flexibility: \textit{why are some folders useful in multiple tool contexts, but others are not?}  The discussion employs the concepts of production and supporting activities from \textbf{Section~\ref{discussion:supporting}}. 
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{When is Folder-mirroring Appropriate?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textit{Production activities} are a user's high-level activities, those which provide the information needs that drive their PIM activity.  Here, it is proposed that a user's production activities are a key influencing factor in the creation of new folders\footnote{The author notes that there may be other factors influencing the creation of folders, e.g. whether the user believes organization to be important.}.  For instance, when a user starts a new production activity that he or she predicts will involve the management of associated information, he or she may create a new folder. Alternatively, the user may create the folder some time after starting the production activity.
+%%%%%%%%%%%%%%%%%%%%%%%%
+% TS and CT ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%
+% are \textit{tool-specific} in terms of their organizational requirements, whilst others are \textit{cross-tool} -- they involve the management of multiple types of information.
+\textbf{Section~\ref{discussion:supporting}} also introduced the notion of \textit{tool-specific} and \textit{cross-tool} production activities.  Tool-specific production activities only involve one PIM-tool, whilst cross-tool production activities are supported by multiple PIM-tools.  The appropriateness of folder-mirroring for each type of production activities is discussed as follows:
+
+\begin{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BUT TOOL-SPECIFIC MAY NOT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TOOL-SPECIFIC PROD: Many production activities are tool-specific in terms of PIM support and may be negatively impacted by folder-mirroring.  Idea of integration as causing interference, setting up connections with other activities when they are not necessary.  Use as explanation of when/why/where integration sometimes works and when it does not.	
+\item \textit{Tool-specific production activities} -- Folder-mirroring is likely to be inappropriate in cases whereby an information need is tool-specific, i.e. when it corresponds to a tool-specific production activity.  Only users who place a high value on organizational consistency are likely to find folder mirroring useful in this context. For most users, mirroring may be seen to result in the creation of ``spurious folders'' in tool contexts where they are not relevant.  This may in turn lead to clutter and a sense of untidiness, causing negative user experience and retrieval difficulties.
+% PROBS WITH WM: Firstly, there is the potential for spurious folders, folders that are useful in one tool context but not another.   Users do not need the same folder in all tools.  Unwanted folders may be seen to interfere with a user's control of their information space by causing clutter.
+Such side-effects may be distributed in time relative to the folder creation event, e.g. the interference caused by spurious folders may not be clear until retrieval time.  % Also, different tools often require different levels of organizational granularity.  OTHER PROBLEMS: Secondly there is also the interrupting dialog boxes.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CROSS-TOOL MAY BENEFIT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Other production activities are cross-tool and can benefit from folder-mirroring. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mismapping between tools and activities
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Therefore there has been a mis-mapping between PIM-tools and the cross-tool nature of PIM.
+% Function of application basis of today's OSs.  
+%Our work is based on this cross-tool perspective, and aims to provide more coherent, integrated support for PIM. We first discuss the findings from a cross-tool study of users' PIM practices.
+%\begin{itemize}
+%	\item Pros/cons of integration
+%\end{itemize}
+% ARGUE POTENTIAL FOR INTEGRATION: Problems with current tools.  Resultant mismatch between workspace-wide activities and tool-centric support. i.e. support for distributed tasks is compartmentalized. Relate to coordination.  Overhead on the user
+\item \textit{Cross-tool production activities} -- Folder-mirroring is most appropriate in those cases where a new folder is driven by a cross-tool information need.  The observation of folder overlap in \textbf{Chapter~\ref{chapter:exploratory_study}} provided evidence of cross-tool information needs.  In these cases, folder-mirroring avoids the user having to create a folder separately in three different tool contexts.  In this way, folder-mirroring may help the user in coordinating their PIM requirements across all three tools.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IS F-M ALWAYS APPROPRIATE FOR C/T
+% PRODUCTION ACTIVITIES?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Here a focus is taken on the organizational requirements from a particular production activity.  Thus 
+However, folder-mirroring may not be appropriate for all cross-tool production activities.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DIFFERENT FOLDERS FOR THE SAME PROJECT IN DIFFERENT TOOSL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Firstly, the user may wish to store information related to a particular cross-tool production activity in folders with different names in different tool contexts.  For example, folders corresponding to a software project may be named after the project code in email, but after the project manager in the file system. % \textit{Indeed one can imagine a particular concept being used to refer to different information needs in different tool contexts.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% different organizational requirements in each tool
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Secondly, users may have varying organizational requirements across different tool contexts.  Files are generally much more richly and deeply structured than emails or bookmarks.  This explains the bias towards mirroring top-level folders: lower-level folders as developed most often in the file system are not useful in the other contexts.
+
+% \item ADD: multiple projects to the same folder
+
+These examples illustrate that it should not be assumed that a cross-tool production activity will always require mirroring.  However, the author argues that the conceptualization of cross-tool production activities is useful as an indication of where folder-mirroring is likely to be appropriate.
+
+\end{itemize}
+
+% \textit{Note that the above examples make the assumption that production activities require the organization of information.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{Weighing up the pros and cons of integration}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thus need for prompting -- user has to decide whether mirroring is necessary. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% do the overall strengths of the design outweigh its weaknesses.  
+The above discussion highlights some of the strengths and weaknesses of the folder mirroring technique, in terms of the benefits offered for different kinds of production activity.  The question to be investigated in evaluation is: does the \textit{consistency} introduced by folder-mirroring outweigh the impact on the \textit{flexibility} to have different folder structures in different tools?  The evaluation results suggest that response to this question is idiosyncratic: some users value consistency more, whilst others value flexibility higher.  Since users vary in their need for such a mechanism, the author concludes that such functionality should be optional and configurable\footnote{The author observes that the WM design has other strengths and weaknesses which must be taken into account during evaluation beyond the trade-off between flexibility and consistency.  For instance, two other weaknesses include: (1) the additional cognitive load of making the decision on whether to mirror, and (2) the effect of the prompting interruption.  In evaluation, the net strengths of the design must be weighed against the net weaknesses.}.  
+
+
+
+%%%%%%%%%%%%%%%%%%
+% IDIOSYNCRATIC
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% lessons for PIM integration based on organization
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The question is can this cause interference for tool-specific production tasks, or other cases where folder-mirroring is inappropriate? 
+% \textit{Likewise unifying unfiled email and files. 
+% but hopefully illustrates key lessons for others: flexibility is of importance and implicitly promoted when multiple specialized tools are present.  The increase in consistency offered by some forms of PIM-integration may impact flexibility.
+
+% How did users respond? Users seemed to differ. Some yes. Some no.  Idiosyncratic. Fall on different sides of the fence.  Therefore good that its an option. Most promising for top-level folders.
+WM represents a modest step towards the more advanced integration promised by new operating system designs such as \textit{MS-Longhorn}~\citep{winfs:03}, and research prototypes such as \textit{Haystack}~\citep{haystack:99}.  Whilst WM offers integration in terms of mirroring folder structures between PIM-tools, these more ambitious systems facilitate the management of different types of information within a common organizational mechanism.  With WM, users still have to manage distinct collections of information separately. 
+
+Feedback from the evaluation of WM included several recommendations for improving its design as a specific PIM-integration mechanism (see \textbf{Section~\ref{main-study:results:themes-design-recs}}).  However, the evaluation also offers two lessons for the wider design genre of PIM-integration:
+\begin{enumerate}
+
+\item \textit{The consistency/flexibility trade-off} -- The WM evaluation illustrates that an increase in organizational consistency across different types of information may impact organizational flexibility.  The author believes that an awareness of this trade-off will be useful for the designers of integration mechanisms that incorporate organizing functionality.
+
+\item \textit{The pros and cons of integration} -- Some cross-tool designs will not provide integration in terms of organizing functionality as WM does.  However, the WM case-study illustrates another more general implication for the wider design genre: that for any integration design, there will be a cost-benefit trade-off which must be carefully considered when evaluating the design. 
+
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The Pros and Cons of Integration}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Generalize to pros and cons of integration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The second implication listed above, that an integration design may have pros and cons, may appear obvious to the reader.  However, the author observes that in many cases, only the positive aspects of integration are considered, e.g. in marketing literature.  The author is not aware of any in-depth investigations of the possible downsides of integration.  
+
+The implications of any design may be difficult for designers to predict before it is evaluated.  This is particularly the case for integration mechanisms, where costs and benefits may be distributed both across tools and over time.  In other words, benefits in tool A at time X, may be offset by costs in tool B at time Y.  The attachment mechanism is employed to illustrate this point.  This functionality allow non-native information to be communicated via email without the need for re-formatting, and was the most-common form of integration mentioned by participants in the main study.  % The key benefit of the attachment mechanism is to 
+% However, the attachment mechanism has positive and negative consequences from a cross-tool perspective.  The mechanism allow integration between files and emails in terms of attaching files to messages to send to other users
+However, the attachment mechanism has a side-effect when viewed from a cross-tool perspective: it enables the storage of files in multiple locations. This distribution of files across multiple tools, so-called \textit{compartmentalization}~\citep{Bellotti:00}, may cause retrieval difficulties if a user is not sure of the location of a required file.  This negative issue is a side-effect of designer's well-intentioned aims to improve integration between email and other tools.  The benefits of allowing the attachment of files to emails results in the negative consequence of the file collection being compartmentalized.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A key reason for the mistaken belief of the contrary is a lack of understanding regarding the nature of PIM, something which the work reported in this thesis has attempted to overcome.    -- \textit{that integration was a good thing, surely there is no need to manage different types of information in different ways?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Limitations of integration view
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Limitations to potential to integrate/unify. These study results suggest counter-argument to unification - benefits of applications. Along lines of Norman's Information Appliance view - simple and specialized.  \textit{THINK: should I claim this as aim of study, or just the result of a measured investigation?}. ADD USER COMMENTS
+% \textit{SUPPORTED BY EMPIRICAL DATA}:
+Another negative consequence of some integration designs may be increased complexity.  \textbf{Section~\ref{review:embedding}} observed the increase in complexity caused by \textit{embedding} support for managing non-native technological formats within a PIM-tool.  In addition, one participant in the main study commented that application suites which contain multiple PIM-tools, such as Netscape Communicator or Outlook, were ``too integrated''. % ADD MORE USER COMMENTS
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HOWEVER there is potential for too much in the way of integration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Leading into potential for interference between collections if inappropriate integration. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compartmentalization
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tools are ``focused'' on one info type.  THerefore user goes there to find info of that type.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some problems caused by haphazard integration, e.g. compartmentalization.  The ability to manage a particular technological format in different collections, causes benefits and problems.  Danger of a piecemeal approach. Consider compartmentalization in abstract terms as a set of constraints on the user. 
+% Need for integration, but can be bad.  However, integration can have unintended effects, for example:
+% Although each tool is focused on information of a particular technological format (or range of formats in the case of the file system), some are able to handle information of other formats. For example, users are able to manage files as email attachments within many email tools. 
+The examples described in this section illustrate that integration may offer benefits whilst at the same time causing problems for users. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% KEY DISCUSSION POINT: Integration is not all rosy!  Pros and cons are considered:
+% raise a note of caution
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Describe as change in view
+% Must not assume that integration can solve everything
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This high-level finding may be controversial in some quarters. 
+% Tool integration is not necessarily a good thing from the user's perspective. 
+% This is the primary message of the thesis: integration is not necessarily a good thing.  
+At this closing stage of the research, the author therefore takes a measured view on the pros and cons of PIM-integration.  This message represents a shift away from the author's original view that integration is a wholly desirable design aim.  Although integration has the potential to be a useful design aim, this is not automatically the case.  The author therefore raises a note of caution to people working in the field: be aware that integration may have associated downsides.   The need for careful analysis of user requirements, and post-design evaluation is emphasised.  In some cases it may not be appropriate to integrate -- but instead to retain separation between tools.   \textbf{Section~\ref{discussion:methodological-discussion}} presents a series of methodological recommendations for the design and evaluation of cross-tool integration mechanisms.  
+% The findings from this study were crucial in making the researcher  % Several examples are used to illustrate the upsides and downsides of integration including WorkspaceMirror and email attachments.
+
+% But some potential. Argue for a changed view of integration: from ``bolt-on'' to ``core-aspect''
+%In particular   Tends to be assumed.  Pros and cons following from cross-tool study.  And here only 3 tools -- many more to consider. Actually a complex picture -- attempt at modelling in \textbf{Section~\ref{disc:theory-discussion}}.
+% LINK TO METH
+% PRO-INTEGRATION: However integration undoubtedly has some potential -- it should just be grounded in empirical requirements, or alternatively proposed designs must be evaluated (something which has not happened in the past -- see \textbf{Chapter~\ref{chapter:review}}).  It is argued that improved theory is required to model user activities and thus design integration in appropriate ways.  Integration is neither a ``bolt-on'' or the answer to everything.
+
+% ARGUMENT TO INCREASE INTEGRATION: As noted above, WM provides integration in terms of mirroring folder structures only.  One participant was very keen on more powerful integration which would unify the storage of items within one folder structure. % Only one part of story. Some users wanted more! Problems are much more widespread.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROBLEM A: PARALLEL MANAGEMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Overheads of managing collections in parallel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FOR EXAMPLE: simple compounding of the information management problem.  
+% If they want to organize, not just one to organize but several.
+% PRO-INTEGRATION: However from a cross-tool perspective, there is clearly a problem that leads to the current keen design interest in PIM-unification. Even considering such integration mechanisms (which make it easier to coordinate tools, even if they sometimes introduce problems), users are currently required to manage multiple collections of personal information in parallel, each centred on a particular technological format, within a distinct tool.  Studies have shown the problems users encounter classifying and retrieving items in specific tools. When one widens the scope to multiple tools, these management overheads are compounded, exacerbating the possible negative impact on a user's productivity.  Indeed, adding another potentially highly-optimized PIM-tool for managing another type of information adds to this parallel workload.  % More time on PIM, means less time on other activities, such as production tasks.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{Integrating PIM tools}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% JUMP AT INTEGRATION?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% To avoid the need to manage in parallel, the extreme answer to this might be to unify all tools.  Some have argued that it does not make sense to mange different types of information in different tools.
+% However based on this exploratory research, we suggest ``null points''.
+
+
+
+
+% COMPLEXITY Also, unification in complex tool may cause other problems of feature bloat.
+% Separation in distinct specialized tool as simplification?
+Two extremes can be envisaged for how PIM-technology may evolve in terms of integration:
+
+\begin{itemize}
+
+\item \textit{Multiple, distinct, simple PIM-tools which are optimized for the management of one type of information} -- This design route may be likened to Norman's argument in favour of \textit{information appliances}, simple focused tools, focused on performing one thing very well~\citep{norman:98}.  He argues that tools that try to do everything often lead to complexity.  However, the downside of such tool specialization is that the user will have to coordinate multiple tools when they are involved in a common production activity.  Integration in this case consists of ``bolt-on'' mechanisms, along the lines of the MS-Windows ``Send-to'' mechanism, which allow tools to be used together.
+
+\item \textit{One single consolidated PIM-tool} -- The other extreme is a unified design that offers support for all types of information within a common interface, along the lines of \textit{Haystack}~\citep{haystack:99}.  Although the resulting design will be complex, there will be no need for the user to coordinate across distinct software applications.
+
+\end{itemize}
+
+\citet{web-sjohnson:02} suggests that Apple are taking up the first philosophy with a move towards a suite of ``iApps'' -- each dedicated to a particular type of information, e.g. photos or music.  In contrast, he argues that Microsoft is moving towards a unified, integrated approach with their plans for MS-Longhorn.  More recently, Apple are planning to offer unified search support in the next generation of their MacOS Tiger operating system.  It will be very interesting to see how PIM-tool design evolves over the next few years.  Furthermore, the author hopes that systematic, cross-tool research, such as that reported in this thesis, will provide helpful guidance to designers.
+
+
+
+% TWO EXTREMES: There may be a tension between inter-tool coordination/integration and tool specialization/flexibility.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 2 theoretical extremes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INTEGRATION/THEO: 
+% EXTREMES: Thus there are two theoretical extremes: (1) multiple simple PIM tools, or (2) one complex combined tool (but still need coordination/integration). In case 1, complexity exists in terms of the coordination overhead which must be picked up by the user. In case 2, the tool is potentially more complicated and may impact the flexibility for the user to manage different types of information in different ways.  EXTREMES IN REAL/WORLD:  ~
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Open issue: have to design with the needs of users across multiple tools in mind? LINK TO METH: Methodological tips for carrying out such work are suggested in \textbf{Section~\ref{discussion:methodological-discussion}}.
+% LINK TO METH: but must be done in an appropriate way.  And evaluated.
+
+% acknowledge that this is a limited view
+% EXTEND TO OTHER TOOLS?
+% Although the work reported in this thesis only considered certain tools\footnote{Current tools based on folder hierarchies.}, it is envisaged that the implications above may be generalized to other tools. Future work suggested in \textbf{Chapter~\ref{chapter:conclusion}} is to consider integration with other PIM tools (e.g. calendars), and devices such as PDAs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Suggested Routes for Integration Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This section highlights a number of potential routes for the design of integration mechanisms based on findings from the two studies reported earlier in the thesis. In lieu of the above discussion regarding the potential pros and cons of integration, the envisaged limitations of each route are also considered:
+
+\begin{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Similarity of archived email and the document space.
+% types of info - support by folder overlap
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SUITABLE INTEGRATIONS: FILED-EMNAIL + FILES: 
+% REC-POTENTIAL-UNIFICATION:
+\item \textit{Integration across distinct technological formats} -- Currently personal information is clustered within distinct PIM-tools, each focused on one technological format.  The cross-tool studies reported in \textbf{Chapters~\ref{chapter:exploratory_study}} and \textbf{\ref{chapter:main-study}} compared how different types of information were managed.  Situations where two different types were managed in a similar way may suggest an appropriate route for unification of the corresponding PIM-tools.  In particular, the studies highlighted the potential compatibility of personal files and \textit{email that has been filed in folders}.  A number of similarities were observed between these information types.  Firstly, for many users, they are both either self-created, or assessed as having long-term value.  Also, folder overlap was greatest between these collections.  Finally, WM usage was strongest between these tools.  
+% REC-PROBLEM-UNIFICATION:
+However complete unification between files and all email (as pointed to by designs such as \textit{TaskMaster}~\citep{Bellotti:03}) may lead to the disruption of the relatively static file collection by unprocessed email. Do users really want to manage spam in the same space that they are dealing with important documents? 
+
+% SUITABLE INTEGRATIONS: Potential to unify in terms of information type (ephemeral/archived). 
+% SUITABLE INTEGRATIONS: Relate to parts of collections.
+% REC-POTENTIAL-UNIFICATION:
+\item \textit{Integration based on other properties of information except technological format} -- Alternatively, designers could attempt to move away from the current fragmentation of personal information based on technological format.  Instead, information could be clustered based on other properties   -- for example \textit{active} versus \textit{inactive}, or \textit{ephemeral} versus \textit{long-term} information.  Another alternative route may be ``\textit{information created by the user (mine)}'' versus ``\textit{information downloaded or sent by other people (theirs')}''.
+
+\end{itemize}
+% Thus the pros and cons of integrating working/active information needs to be weighed up carefully.  However, certain types of information such as older/archived items -- may carry universal meaning across PIM systems, and thus be may unified more effectively, with fewer side-effects. % See \textbf{Section~\ref{disc:theory-discussion}}.
+In conclusion, there are many PIM-integration routes that are yet to be explored, and evaluated to assess their potential. The next section presents a series of methodological recommendations for designing and evaluating PIM-integration mechanisms.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{TO MOVE}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{itemize}
+%\item State what section has offered
+%\item THINK: how to link study discussion to other aspects of discussion and conclusions, e.g. relate to future work
+%\end{itemize}
+
+%MOVE TO CONTENTS DISCUSSION: This section has discussed design implications for PIM-integration mechanisms following from this programme of research.  In particular, the pros and cons of integration are highlighted, illustrated by a series of examples including the WorkspaceMirror prototype.  Design recommendations were also made for PIM design in general.  These recommendations form the basis for some of the future work in \textbf{Chapter~\ref{chapter:conclusion}}.
+% Further general design implications are made in \textbf{Section~\ref{discussion:uxp-design}}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% folder overlap
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% STUDY FINDINGS: Folder-overlap implications: how best to unify. 
+%MOVE TO CHAPTER 4: FOLDER OVERLAP The observation of \textit{folder overlap} in \textbf{Chapter~\ref{chapter:exploratory_study}} points to a subset of production activities that are cross-tool.   Most overlapping folders corresponded to roles and projects, suggesting that these concepts may be usefully shared between collections, as in the UMEA system~\citep{Kaptelinin:03}.  However, it should be emphasized that most folders did not overlap. This suggests that: (1) some production tasks are supported by single PIM tools and may not necessarily benefit from increased integration; and (2) users may have different organizational needs in different tools.  An open design question concerns the impact of some forms of integration on tool-specific activities.  For instance, some WM trial users were concerned that spurious mirrored but unused folders would cause clutter.
+
+%THEORY DESCRIPTION OF WM: WM thus offers support for coordinating the \textit{organizing} of multiple information types. Folder actions without WM are effectively distributed in both time and space, if there is a need for cross-tool organization.  However note that WM only integrates the organizing sub-activity.  Each distinct collection contains distinct copies of the mirrored folder structures, and items are stored separately in distinct collections. The acquisition and retrieval sub-activities within distinct PIM sub-systems continue in parallel as before.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FIN@ CHAPTER 7 DESIGN IMPLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+% Note that the name of the folder may correspond to the production activity directly, or alternatively to some other concept such as a person or subject with is of importance to the user.  Thus each folder relates to an information need that requires organizing of items.
+% \textit{(NB: THINK ARE THESE FOLDERS CROSS-PRODUCTION TASK????? AM I NOBBLED???? no just because some folders are driven by multiple production tasks, they are still driven by production tasks.  THINK: should I widen concept of production task to ``high-level'' need/goal/importance.  Production tasks may be relevant in only one PIM-tool.  Or they may be indexed differently in different PIM-tools.).}
+
+
+
+
+
+
+
+
+
+
+

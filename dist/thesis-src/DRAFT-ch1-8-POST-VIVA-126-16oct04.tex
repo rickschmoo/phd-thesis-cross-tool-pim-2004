@@ -1,0 +1,525 @@
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Richard Boardman PhD Thesis ALL CHAPTERS
+
+% Improving Tool Support for Personal Information Management
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper]{report} % {book}
+
+\usepackage{a4}
+
+\usepackage{color}
+
+\usepackage[pdftitle={Improving Tool Support for Personal Information Management}, pdfauthor={Richard Boardman}, colorlinks=true, linkcolor=blue, citecolor=blue, plainpages=false, hyperfootnotes=false, pdfpagelabels, bookmarks=true, bookmarksnumbered=true, pdfstartview=FitH]{hyperref}
+
+% deleted: pagebackref
+
+
+
+
+% %%%%%%%%%%%%
+
+% New Commands
+
+% %%%%%%%%%%%%
+
+% HOw to do a side-label
+
+% \marginlabel{\small{\textit{My defn: basis on control?}}}
+
+	
+
+\input{supporting/header}   
+
+\setstretch{1.6}
+
+%\makeindex
+
+\begin{document}
+
+\pagestyle{plain}
+
+\setcounter{page}{0}
+
+
+% Give left margin an extra cm!
+
+% \oddsidemargin=20mm
+
+% \setlength{\evensidemargin}{20mm}
+
+%\setlength{\topmargin}{20mm}
+
+\addtolength{\oddsidemargin}{4mm}
+
+%	\addtolength{\evensidemargin}{-.875in}
+
+%	\addtolength{\textwidth}{1.75in}
+
+% http://web.mit.edu/answers/latex/formatting/latex_margins.html
+
+
+\title{\textbf\Huge {Improving Tool Support for \\ Personal Information Management}}
+
+% \\ \textit{DRAFT Chapters 1--8}}}   
+
+
+
+\author{\Large Richard Boardman\\Department of Electrical and Electronic Engineering\\Imperial College London\\University of London\\[2cm] First supervisor: Prof. Bob Spence (Imperial College London)\\Second supervisor: Prof. Angela Sasse (University College London)\\[2cm] \textsl{A thesis submitted for the degree of}\\ \textsl{Doctor of Philosophy of the University of London}\\ \textsl{and for the}\\ \textsl{Diploma of Membership of the Imperial College}}
+
+
+% \author{\Large Richard Boardman\\ First supervisor: Robert Spence (Imperial College London)\\Second supervisor: M. Angela Sasse (University College London)\\[2cm] \includegraphics{pictures/cover/crest}\\[2cm] \textsl{A thesis submitted for the degree of}\\ \textsl{Doctor of Philosophy of the University of London}\\ \textsl{and for the}\\ \textsl{Diploma of Membership of the Imperial College}\\ \textsl{Version 0.3} }
+
+
+\maketitle 
+
+% \thispagestyle{empty}
+
+
+%%%%%%%%%%%%%%
+
+% Line Spacing
+
+% %%%%%%%%%%%%
+
+\doublespacing
+
+%\singlespacing
+
+%\o n e h a l f s p a c i n g 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Turn off paragraph indentation
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parindent}{0in}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set paragraph spacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addtolength{\parskip}{0.3\baselineskip}
+
+
+\setcounter{page}{1}
+
+\pagenumbering{roman}
+
+% %%%%%%%%%%%%%%%%%%%
+
+% % Left margin comment
+
+% %%%%%%%%%%%%%%%%%%%
+
+\newcommand{\marginlabel}[1]{\mbox{}\marginpar{\raggedleft\hspace{0pt}#1}}
+
+	
+
+% %%%%%%%%
+
+% abstract
+
+% %%%%%%%%
+
+\clearpage
+
+% \addcontentsline{toc}{chapter}{Abstract}
+
+\vspace{3in}
+
+\noindent{\Huge{}\bf{}Abstract}\\[.3in]
+
+\input{supporting/abstract}
+
+
+
+% %%%%%%%%%%%%%%%%
+
+% acknowledgements
+
+% %%%%%%%%%%%%%%%%
+
+\clearpage
+
+% \addcontentsline{toc}{chapter}{Acknowledgements}
+
+\vspace{3in}
+
+\noindent{\Huge{}\bf{}Acknowledgements}\\[.3in]
+
+\input{supporting/acknowledgements}
+
+
+% %%%%%%%%%%%%%%%%%
+
+% table of contents
+
+% %%%%%%%%%%%%%%%%%
+
+% \setcounter{page}{2}
+
+\clearpage
+
+% \addcontentsline{toc}{chapter}{Contents} 
+
+\tableofcontents 
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% list of figures and list of tables
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\listoffigures
+
+
+\clearpage
+
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\listoftables
+
+
+
+\clearpage
+
+\pagestyle{fancy}
+
+\fancyhead[LE,RO]{\slshape\footnotesize \rightmark}
+
+\fancyhead[LO,RE]{\slshape\footnotesize \leftmark}
+
+
+\clearpage
+
+\pagenumbering{arabic}
+
+
+
+% \clearpage
+
+% \pagenumbering{arabic}
+
+
+%footnote numbering should be consecutive
+
+\makeatletter
+
+\@removefromreset{footnote}{chapter}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% MAJOR TODOs
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% TODOS: replace chapter refs with correct section refs
+
+% CITE -> CITEP, CITET
+
+% CHANGE WE/OUR
+
+% FEASIBILITY -> INITIAL
+
+% MAKE DATA ANANYMOUS WHERE APPROPRIATE!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 1 - Introduction
+
+% %%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+
+\label{chapter:introduction}
+
+% \input{tex/empty/chapter1-empty}
+
+\input{tex/intro-chapters/chapter1-introduction.tex}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 2 - Background
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \chapter{Background\label{chapter:review}}
+
+\chapter{Conceptual Background}
+
+\label{chapter:bg}
+
+% \input{tex/empty/chapter2-empty}
+
+\input{tex/intro-chapters/chapter2-pimcf.tex}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 3 - Literature Review
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Literature Review}
+
+\label{chapter:review}
+
+% \input{tex/empty/chapter3-empty}
+
+\input{tex/intro-chapters/chapter3-review}
+
+\input{tex/intro-chapters/chapter3-review-THEORY}
+
+\input{tex/intro-chapters/chapter3-review-DISCUSSION}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 4 - Exploratory Study
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Exploratory Cross-tool Study}
+
+\label{chapter:exploratory_study}
+
+% \input{tex/empty/chapter4-empty}
+
+\input{tex/expstudy-chapter/expstudy-introduction.tex}
+
+\input{tex/expstudy-chapter/expstudy-method.tex}
+
+\input{tex/expstudy-chapter/expstudy-results-overview.tex}
+
+\input{tex/expstudy-chapter/expstudy-results1-comparison.tex}
+
+\input{tex/expstudy-chapter/expstudy-results1a-strategies.tex}
+
+\input{tex/expstudy-chapter/expstudy-results3-cross-tool-profiling.tex} 
+
+\input{tex/expstudy-chapter/expstudy-results2-org-dims.tex} 
+
+\input{tex/expstudy-chapter/expstudy-results4-folder-overlap.tex} 
+
+\input{tex/expstudy-chapter/expstudy-results6-changes.tex} 
+
+\input{tex/expstudy-chapter/expstudy-results7-problems.tex} 
+
+\input{tex/expstudy-chapter/expstudy-conclusion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CHECK ALL SECTIONS!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 5 - Cross-tool Design
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Cross-tool Design}
+
+\label{chapter:design}
+
+\input{tex/design-chapter/chapter5-design}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 6 - Main Study: Evaluation of WorkspaceMirror
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Main Study}
+
+\label{chapter:main-study}
+
+\input{tex/main-study/chapter6-main-study-INTRO}
+
+\input{tex/main-study/chapter6-main-study-METHOD}
+
+\input{tex/main-study/chapter6-main-study-RESULTS-WM}
+
+\input{tex/main-study/chapter6-main-study-RESULTS-LONGITUDINAL}
+
+\input{tex/main-study/chapter6-main-study-DISCUSSION-evaluation}
+
+\input{tex/main-study/chapter6-main-study-DISCUSSION-longit}
+
+\input{tex/main-study/chapter6-main-study-DISCUSSION-strategy-changes}
+
+% \input{tex/main-study/chapter6-main-study-CONCLUSION}
+
+%\input{tex/empty/chapter6-empty}
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 7 - Discussion
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Discussion}
+
+\label{chapter:discussion}
+
+\input{tex/discussion/chapter7-discussion-intro}
+
+\input{tex/discussion/chapter7-discussion-theoretical-framework}
+
+\input{tex/discussion/chapter7-discussion-new-theory-CT}
+
+\input{tex/discussion/chapter7-discussion-new-theory-supporting}
+
+\input{tex/discussion/chapter7-discussion-new-theory-ongoing}
+
+\input{tex/discussion/chapter7-discussion-design-general}
+
+\input{tex/discussion/chapter7-discussion-method}
+
+% \input{tex/discussion/chapter7-discussion-strategies}
+
+\input{tex/discussion/chapter7-discussion-uxp}
+
+\input{tex/discussion/chapter7-discussion-conclusion}
+
+% \input{tex/empty/chapter7-empty}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%
+
+% chapter 8 - Conclusion
+
+% %%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Conclusion}
+
+\label{chapter:conclusion}
+
+\input{tex/conclusion/chapter8-conclusion-intro}
+
+\input{tex/conclusion/chapter8-conclusion-contributions}
+
+\input{tex/conclusion/chapter8-conclusion-reflection}
+
+\input{tex/conclusion/chapter8-conclusion-future}
+
+% \input{tex/conclusion/chapter8-conclusion-close}
+
+% \input{tex/empty/chapter8-empty}
+
+
+% %%%%%%%%%%%%%%
+
+% bibliography
+
+% %%%%%%%%%%%%%%
+
+%\singlespacing
+
+%\bibliographystyle{plain}
+
+\clearpage
+
+\addcontentsline{toc}{chapter}{Bibliography} 
+
+\bibliographystyle{abbrvnat}
+
+\bibliography{bib/refs-test,bib/hci-background,bib/hci-methodological,bib/pim-background,bib/pim-theory,bib/pim-study,bib/pim-systems,bib/pim-technology,bib/pim-eval,bib/me}
+
+
+
+%%%%%%%%%%%%%%
+
+% appendices
+
+%%%%%%%%%%%%%%
+
+\appendix
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Appendix A: Exploratory study
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Materials from Exploratory Study}
+
+\label{chap:appendices-exploratory-study-material}
+
+\input{tex/appendices/appendix-exp-study}
+
+% \input{tex/appendices/appendices-empty.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Appendix B: Main study
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Materials from Initial WM Evaluation and Main Study}
+
+\label{chap:appendices-main-study-material}
+
+\input{tex/appendices/appendix-main-study}
+
+% \input{tex/appendices/appendices-overview.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix C: Sample data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Sample data}
+
+\label{chap:appendices--study-data}
+
+\input{tex/appendices/appendix-study-data}
+
+%\chapter{Abbreviations}
+
+%\label{chap:appendices-misc}
+
+%\input{tex/appendices/appendix-misc}
+
+% \input{tex/appendices/appendices-overview.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%footnote numbering should be consecutive
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\thefootnote}{\@arabic\c@figure}
+
+\makeatother
+
+
+\end{document}
+

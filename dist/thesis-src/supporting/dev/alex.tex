@@ -1,0 +1,141 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{a4}
+\usepackage{color}
+%\usepackage[hyperref]{ntheorem}
+\usepackage[pdftitle={Executable Specifications of Open Norm-Governed Computational Systems}, pdfauthor={Alexander Artikis}, colorlinks=true, linkcolor=blue, citecolor=blue, plainpages=false, hyperfootnotes=false, pdfpagelabels, pagebackref, bookmarks=true, bookmarksnumbered=true, pdfstartview=FitH]{hyperref}
+
+\usepackage{paralist}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\setlength{\abovetopsep}{2ex}
+\usepackage{topcapt} 
+\usepackage{pstricks}
+\usepackage{remreset}
+\usepackage[hyperref]{ntheorem}
+%THE NEXT 4 LINES SOLVES SOME PROBLEMS OF THE hyperred AND ntheorem PACKAGES INTERFERENCES:
+\makeatletter
+\providecommand*{\toclevel@defin}{0}
+\providecommand*{\toclevel@propos}{0}
+\makeatother
+
+\input{header}
+\setstretch{1.6}
+%\makeindex
+\begin{document}
+\pagestyle{plain}
+\setcounter{page}{0}
+\title{\textbf\Huge {Executable Specification of Open \\ Norm-Governed Computational Systems}}   
+
+%\title{\textbf \Huge Modelling and Animation \& of Multi-Agent Systems 
+%  in a Multi-Modal Logic Framework\\
+%       \vspace{0.75in}
+%        }
+\author{\Large Alexander Artikis\\[1.5in] \includegraphics{pictures/crest}\\[1in] \textsl{A thesis submitted for the degree of}\\ \textsl{Doctor of Philosophy of the University of London}\\ \textsl{and for the}\\ \textsl{Diploma of Membership of the Imperial College} }
+\maketitle 
+% \thispagestyle{empty}
+%\onehalfspacing
+%\doublespacing
+
+\setlength{\parindent}{0in}
+%\setlength{\parskip}{.08in}
+\setlength{\parskip}{1.5ex}
+\setlength{\itemsep}{0ex}
+%\input{abbreviations}
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+%\begin{abstract}
+%\thispagestyle{plain}
+%\input{abstract}
+%\end{abstract}
+
+\clearpage
+\vspace{3in}
+\noindent{\Huge{}\bf{}Abstract}\\[.3in]
+\input{abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+%\clearpage
+%\vspace{3in}
+%\noindent{\Huge{}\bf{}Acknowledgements}\\[.3in]
+%\input{acknowledgements}
+%\addcontentsline{toc}{chapter}{Acknowledgements}
+
+
+%\chapter*{Abstract} 
+%\input{abstract}
+
+%\chapter*{Acknowledgements}
+%\input{acknowledgements}
+
+\setcounter{page}{2}
+\clearpage
+\addcontentsline{toc}{chapter}{Contents} 
+\tableofcontents 
+\clearpage
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\slshape\footnotesize \rightmark}
+\fancyhead[LO,RE]{\slshape\footnotesize \leftmark}
+
+\clearpage
+%\pagenumbering{arabic}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\clearpage
+\pagenumbering{arabic}
+
+%footnote numbering should be consecutive
+\makeatletter
+\@removefromreset{footnote}{chapter}
+
+\chapter{Introduction\label{chap:introduction}}
+\input{chapter1}
+
+\chapter{Representing Agent Systems: Building Blocks\label{chap:background1}}
+\chaptermark{Building Blocks}
+\input{chapter2}
+
+\chapter{Representing Agent Systems: Frameworks\label{chap:background2}}
+\chaptermark{Frameworks}
+\input{chapter3}
+
+\chapter{Specifying Open Agent Societies\label{chap:theoretical}}
+\chaptermark{Specification}
+\input{chapter4}
+
+\chapter{Executing the Specifications of Open Agent Societies\label{chap:computational}}
+\input{chapter5}
+
+\chapter{A Case Study: Specifying and Executing a Contract-Net Protocol\label{chap:cnp}}
+\chaptermark{A Case Study}
+\input{chapter6}
+
+\chapter{Conclusions and Further Research\label{chap:conclusions}}
+\input{chapter7}
+
+%\listoftables
+%\listoffigures
+
+%\bibliographystyle{apalike}
+%\singlespacing
+\bibliographystyle{plain}
+\bibliography{aabib}
+
+\appendix
+\chapter{Executing a Contract-Net Protocol \label{chap:appendixA}}
+\input{appendixA.tex}
+
+\chapter{This is not part of the thesis}
+\input{appendixC.tex}
+
+%footnote numbering should be consecutive
+\renewcommand{\thefootnote}{\@arabic\c@figure}
+\makeatother
+
+\end{document}
+

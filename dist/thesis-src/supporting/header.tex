@@ -1,0 +1,127 @@
+% header.tex
+% A general header file for
+% cool LaTeX documents.
+% 
+% ldk 3/2/98
+
+\usepackage{epsfig}
+% \usepackage{paralist}
+% \usepackage{amsmath}
+\usepackage{booktabs}
+\setlength{\abovetopsep}{2ex}
+%\usepackage{topcapt} 
+%\usepackage{pstricks}
+\usepackage{remreset}
+\usepackage[hyperref]{ntheorem}
+%THE NEXT 4 LINES SOLVES SOME PROBLEMS OF THE hyperred AND ntheorem PACKAGES INTERFERENCES:
+\makeatletter
+\providecommand*{\toclevel@defin}{0}
+\providecommand*{\toclevel@propos}{0}
+\makeatother
+
+% %%%%%%%%%%%%
+% New Commands
+% %%%%%%%%%%%%
+% HOw to do a side-label
+% \marginlabel{\small{\textit{My defn: basis on control?}}}
+
+\usepackage{url}
+\newcommand{\urlBiBTeX}[1]{\url{#1}}
+
+% Rick testing minitoc's
+% \usepackage{minitoc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for extrarowheight in tables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{array}
+
+% Use aesthetic fonts for main text (pandora) and
+% math symbols (euler).
+\usepackage{ae}
+\usepackage{aecompl}     
+\usepackage{utopia}
+
+% \usepackage{euler}
+% wasysym provides some unusual symbols (e.g. `\checked' for a tick and `\phone'.
+\usepackage{wasysym}
+
+% amssymb provides extended math symbols
+%\usepackage{amssymb}
+% pifont contains ZapfDingBat characters.
+%\usepackage{pifont}
+% Use Type 1(?) encoding to ensure proper
+% characters generated.
+%\usepackage{t1enc}
+%\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+
+% Nice wide page, please.
+\usepackage{a4wide}
+
+% Graphics almost certainly required.
+\usepackage{graphics}
+
+% fancyhdr for fancy page headers(!)
+\usepackage{fancyhdr}
+% some rotated tables required
+\usepackage{rotating}
+% http://www.manicai.net/comp/latex/latex_tricks.html
+% \begin{sidewaystable}
+% \end{sidewaystable}
+
+% setspace allows variable line-spacing.
+% Handy for thesis.
+\usepackage{setspace}
+%\usepackage{doublespace}
+
+% makeidx permits the creation
+% of an index file.
+% \usepackage{makeidx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cite sanitises citations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \usepackage{cite}
+% \usepackage{chicago}
+\usepackage[round]{natbib}
+
+% booktabs allows the creation of 'publication quality' tables
+\usepackage{booktabs}
+
+% pstricks allows colours to be used
+%\usepackage{color}
+%\definecolor{rltbrightred}{rgb}{1,0,0}
+%\definecolor{rltred}{rgb}{0.75,0,0}
+%\definecolor{rltdarkred}{rgb}{0.5,0,0}
+%\definecolor{webred}{rgb}{0.5,0.25,0}
+%\definecolor{rltbrightgreen}{rgb}{0,0.75,0}
+
+% \usepackage{pstricks}
+% Beginning of the JLC definitions
+
+%\newtheorem{definition}{Definition}
+%\newtheorem{example}[definition]{Example}
+%\newtheorem{application}[definition]{Application}
+%\newtheorem{theorem}[definition]{Theorem}
+%\newtheorem{exercise}[definition]{Exercise}
+%\newtheorem{lemma}[definition]{Lemma}
+%\newtheorem{notation}[definition]{Notation}
+%\newtheorem{observation}[definition]{Observation}
+%\newtheorem{proposition}[definition]{Proposition}
+%\newtheorem{proposal}[definition]{Proposal}
+%\newtheorem{remark}[definition]{Remark}
+%\newtheorem{result}[definition]{Result}
+%\newtheorem{conjecture}[definition]{Conjecture}
+%\newtheorem{claim}[definition]{Claim}
+%\newtheorem{assumption}[definition]{Assumption}
+%\newtheorem{corollary}[definition]{Corollary}
+%\makeatletter
+%\renewcommand{\@begintheorem}[2]{ % not in italics
+%  \trivlist\item[\hskip\labelsep{\bf #1\ #2}]}
+%\renewcommand{\@opargbegintheorem}[3]{\trivlist
+%  \item[\hskip \labelsep{\bf #1\ #2\ (#3)}]}
+%\makeatother
+%\newtheorem{proof}{Proof}
+%\renewcommand{\theproof}{}  % no numbers on proofs
+% End of the JLC definitions

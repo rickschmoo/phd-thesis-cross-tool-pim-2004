@@ -1,0 +1,298 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CHAPTER 6 -- MAIN STUDY
+% Introduction
+% File: tex/main-study-chapter/chapter6-main-study-INTRO.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Richard Boardman PhD Thesis: Improving Tool Support for Personal Information Management
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NATBIB NOTES
+%%%%%%%%%%%%%%%%%%%
+%\citet{jon90}                ->    Jones et al. (1990) 
+%   \citet[chap.~2]{jon90}       ->    Jones et al. (1990, chap. 2)
+%   \citep{jon90}                ->    (Jones et al., 1990) 
+%   \citep[chap.~2]{jon90}       ->    (Jones et al., 1990, chap. 2) 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter notes}:
+%%%%%%%%%%%%%%%%%%%%%%%
+% THINK: consider alternative title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\label{main-study:introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% LEAD-IN INTRO and AIMS
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% ADD OVERVIEW OF STUDY?
+% Relate to overall thesis methodology (DIAGRAM to illustrate?}
+%%%%%%%%%%%%%%%
+This chapter reports a field-study in which eight participants' management of files, email and bookmarks was tracked for an average of 286 days.  The field-study acted as a dual-purpose research vehicle to satisfy two high-level objectives:
+\begin{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AIM 1: EVALUATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% expand with develop metrics and methods for tool evaluation
+\item To evaluate the WorkspaceMirror prototype presented in \textbf{Chapter~\ref{chapter:design}}. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AIM 2: FURTHER STUDY
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Further study, investigate further in follow-up to previous study
+% Follows on from the initial feasibility study outlined in \textbf{Chapter~\ref{chapter:design}}.
+\item To build on the ``snapshot'' findings reported in \textbf{Chapter~\ref{chapter:exploratory_study}}, by investigating PIM behaviour over a period of time.
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Emphasise contribution
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In terms of both objectives, the study makes important progress over previous work.  Firstly, few PIM designs have been effectively evaluated. In particular, this work represents the first \textit{in situ} evaluation of a PIM-integration mechanism.  Secondly, as well as being one of the few longitudinal studies of PIM practice, this work is the first \textit{cross-tool}, longitudinal study.   The next two sections discuss each objective in turn, and detail the progress made over previous work.
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% AIM1: Evaluate WM tool
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Objective 1: Evaluation of WorkspaceMirror}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%
+% NEED FOR EVAL
+%%%%%%%%%%%%%%%%%
+% Need for further evaluation
+% The need for evaluation
+%	\item Need for effective evaluation (reference classic HCI methodology)
+% What is evaluation? Robson: attempt to assess worth of some innovation or intervention.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\citet{Robson:01} defines evaluation as an attempt to assess the worth of some innovation or intervention.  The evaluation of interactive designs is an essential component of HCI research, since an interactive artefact, however innovative, does not on its own constitute a substantial contribution to HCI knowledge without some assessment of its worth~\citep{dix-hci:97,Carroll:00}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LACK OF EVALS IN PIM DESIGN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Survey of previous tool evaluations (when they have been carried out). Note that MOST previous evaluations of PIM prototypes (on the rare occasions that they have been carried out! SIS, TMN, ContactMap, UMEA) have been short-term, task-based lab studies and/or focused on one aspect of PIM (e.g. information retrieval).
+However, much of the body of PIM-related design-based research is limited in this regard.   \textbf{Chapter~\ref{chapter:review}} highlights the lack of evaluation of proposed PIM designs.
+
+%%%%%%%%%%%%%%%%
+% RECAP DESIGN
+%%%%%%%%%%%%%%%%
+% WM allows the user to mirror structural changes (i.e. the creation, deletion, renaming or moving of folders) between the file, email and bookmark folder hierarchies.  For example, if the user creates a new file folder, he/she is asked whether equivalent email and bookmark folders should also be created.
+% The design was motivated by observations of folder overlap in \textbf{Chapter~\ref{chapter:exploratory_study}}.
+% WM was deployed as a research vehicle to explore the potential to share folder structures between PIM tools, as well as general issues related to improving integration.
+%  reported the design and implementation of a PIM-integration mechanism, WorkspaceMirror (abbreviated as WM henceforth).  
+A starting aim of this thesis was to avoid such a limitation by evaluating any design resulting from the research.  Therefore the evaluation of the WorkspaceMirror (WM) design proposed in \textbf{Chapter~\ref{chapter:design}} was considered essential.  WM is a PIM-integration mechanism, which allows a user to mirror adjustments to the folder structures in three collections of personal information: files, email, and bookmarks.  An incremental design approach was taken to enable the straightforward incorporation of WM within a user's existing set of PIM-tools.
+% reported the design and implementation of a PIM-integration mechanism
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First step: feasibility study
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Chapter~\ref{chapter:design}} concluded with an initial assessment of the workability of WM based on the subjective first impressions of five users\footnote{Note that the tool had also been tested in extensive ongoing usage by the author/developer.}.  Based on the positive feedback of four of the five users, it was decided that the design was feasible, and that a more in-depth evaluation should be pursued. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OUTPUTS of evaluation
+% local evaluation + generalize design + methodological exploration)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The longer-term evaluation had three sub-objectives:
+\begin{enumerate}
+\item To facilitate the formative redesign of WM, as a specific instance of PIM-integration.
+\item To derive general recommendations for design aimed at PIM-integration.
+\item To explore appropriate methods and metrics for evaluating PIM-tools.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{Formative redesign of WM}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%
+% 1. SPECIFIC
+%%%%%%%%%%%%%%%%%
+% One focus equals (Formative) evaluation of WorkspaceMirror
+% THINK: talk about design intervention, and iteration}
+% ADD: Evaluation as theory-building
+% allowing the candidate to complete an excursion around the Task-Artefact cycle during the thesis.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% It was hoped that the evaluation data would in turn enable the formative refinement of WM.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The first sub-objective was to assess the value of WM as a specific instance of PIM-integration, and identify routes for its improvement.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Specific aspects to evaluate
+% THINK:
+% present as
+% 1. "`areas to explore"' or
+% 2. "`design hypotheses"'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% As well as the need to assess the usability and usefulness of the WM tool
+The specific areas to be investigated included the following:
+\begin{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Usefulness and use
+% the impact of WM on the various aspects of PIM across all three tools.
+%%%%%%%%%%%%%%%%%%%%%%
+\item \textit{Usefulness} -- Do users value the ability to mirror folders between PIM-tools?  How do users mirror folders across files, email and bookmarks?  % Is there a trade-off between the improved organizational consistency offered by WM, and the flexibility to organize different types of information in different ways?
+
+%%%%%%%%%%%%%%%%%%%%%%
+% usability
+%%%%%%%%%%%%%%%%%%%%%%
+\item \textit{Usability} -- How can the usability of the design be improved?  Do users prefer the prompted or automatic modes of operation?  Does extended use of WM improve users' satisfaction regarding their level of organization? % in their personal information environment?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Learnabaility
+% barriers to use?
+% Refer to Bellotti's concerns ...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item \textit{Learnability and bootstrapping issues} -- How easy is it for users to understand folder-mirroring?  Is it easy for users to accommodate WM within an existing workspace? %What barriers to uptake exist for such PIM designs?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Suitability for different types of user
+%To investigate how different users will respond to the tool:
+%\begin{itemize}
+%	\item Users with extensive folders in multiple tools - and extensive folder overlap between those tools
+%	\item Users with extensive folders in multiple tools - but no folder overlap
+%	\item Users with extensive folders in one tool only
+%	\item Users with few folders
+%\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item \textit{How do different types of user respond to WM?}  -- The exploratory study in \textbf{Chapter~\ref{chapter:exploratory_study}} identified a wide range of user profiles.  A key interest was to investigate how different types of user respond to WM (e.g. \textit{pro-organizing} versus \textit{organizing-neutral} individuals).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%
+% 2. GENERALIZE
+%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsubsection{Formative redesign of WM}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Use this evaluation as basis to explore potential for unification (pros and cons)
+% \item Proof of practice/straw-man/test-case
+% Design Science perspective, Artifact as theory-nexus. Evaluation as theory-building/validation.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Evaluate WorkspaceMirror as a straw-man design
+% (instance of the PIM-integration design genre)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Secondly, as well as assessing the WM design specifically, it was also hoped that the evaluation would allow the derivation of general design recommendations for systems aimed at improving integration between PIM tools.
+
+
+%%%%%%%%%%%%
+% 3. Methodological insights to how to evaluate
+%%%%%%%%%%%%
+% Operationalization/continued evelopment of Cross-tool Study/Evaluation Methodology
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Finally, it was envisaged that lessons learned during the study would provide insights regarding appropriate metrics and methods for the evaluation of PIM-integration mechanisms.  \textbf{Chapter~\ref{chapter:review}} highlights the lack of such methodological guidance.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AIM 2: Study
+% Eval provides context for further study into PIM behaviour
+% provide insights into PIM (analyze practice). Or vice versa?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Objective 2: Longitudinal Study}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dual purpose
+% Ethnographic perspective: chance for more study.  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Relate to ideas from design-based research Base methodology -- combining study of work practice and design intervention-- but not cooperative prototyping.
+As well as evaluating WM, the study also offered the opportunity for further empirical investigation of PIM.  Other researchers have successfully combined design interventions with studies of work practice, e.g.~\citep{blomberg:96}. % also Carroll, Hoadley
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Why need for more studies?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A long-term study offered a chance to improve on the shortcomings of previous PIM-related empirical work.  
+% 1. lack of previous long-term studies
+% The model can be summarized in terms of two sets of strategy transitions: (1) "pro-organizing" transitions involving increases in filing tendency (solid arrows), and (2) "anti-organizing" transitions (dashed arrows). Bälter suggested that users who receive many messages might change their strategies along an "anti-organizing" path, leading to an end-state of folderless spring-cleaner as they file less over time. Alternatively, users might devote increased effort towards managing email and move the other way (e.g. spring-cleaner to frequent-filer).
+\textbf{Chapter~\ref{chapter:review}} reviewed previous empirical studies of PIM, and observed how most have been based on short-term ``snapshots'' of behaviour.  One exception was~\citet{ob:97} who proposed a model of strategy changes in email, but noted a need for further longitudinal data to confirm his model.  % However, .
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Build on limitations of first study
+% Limitations of first phase: \textit{discuss limitations of first study based on snapshot. Limited to subjective feedback + folder hierarchies, i.e. insights limited by the data.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In the context of the thesis, a field study also provided an opportunity to build on the ``snapshot'' exploratory study reported in \textbf{Chapter~\ref{chapter:exploratory_study}}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Therefore aims here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+It was envisaged that collecting longitudinal data would provide insight into the following issues:
+% lead to increased understanding of longitudinal issues related to PIM such as the following:
+\begin{itemize}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% unfolding
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% In addition, how do they relate to a participants' production activities?  
+% For example, how do management strategies change over time?  
+\item \textit{How do PIM practices change over time?} -- Historical strategy changes were reported by many participants in \textbf{Chapter~\ref{chapter:exploratory_study}}.  It was envisioned that longitudinal data relating to strategy changes may provide evidence for or against the model presented in~\citet{ob:97}.  The cross-tool nature of the study also enabled the comparison of long-term findings between the file, email and bookmark contexts. 
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Investigate longtitudinal aspects of PIM
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Questions we wanted to ask: how often do users really fail to find?
+% How often do they really do maintenance, e.g. reorganize?
+% reveal little objective data concerning aspects of PIM which are only apparent over time, relying on subjective reports from participants over such ``bursty'' behaviour.
+\item \textit{How are ongoing activities such as archiving, deletion and retrieval performed?} -- During ``snapshot'' studies, participants provide subjective reports of how they perform such sporadic tasks.  It was hoped that the field trial would enable the collection of more objective data on these aspects of PIM.
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Changes over time
+%%%%%%%%%%%%%%%%%%%%%%%
+% Also consider; Affect of study on users? Did this result in any changes in PIM strategies?
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Relate to overall PhD aims
+% Set out contributions of this chapter towards overall thesis
+% Add key insights!
+% talk about lessons learned
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Contributions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The contribution of this chapter towards the thesis is two-fold, based on the dual-purpose nature of the study:
+
+\begin{itemize}
+
+% it offers the evaluation of WorkspaceMirror -- in terms of the evaluation of a specific form of PIM integration
+% and as an example of the PIM-integration design genre.  
+\item Firstly, the chapter offers the results from the formative evaluation of WM, and suggestions for its redesign.  As well as evaluating the specific WM design, the chapter provides empirical groundwork for deriving general guidelines for the design of PIM-integration. These are discussed in \textbf{Chapter~\ref{chapter:discussion}}, along with methodological recommendations for evaluating PIM tools based on the experience gained in evaluating WM.
+
+
+\item Secondly, the chapter offers insights into the nature of PIM from a longitudinal perspective.  These include the analysis of observed changes in PIM strategy.  Based on these results, \textbf{Section~\ref{main-study:discussion}} criticises the model of changes in email management strategies from~\citet{ob:97}, and offers a new model.
+
+\end{itemize}
+
+
+
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Structure of the Chapter}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Firstly, \textbf{Section~\ref{main-study:method}} describes the study methodology.
+Then, \textbf{Section~\ref{main-study:results:overview}} provides a high-level overview of the results which are presented in detail over the subsequent three sections.
+\textbf{Section~\ref{main-study:case-studies}} presents a case study of each participant, summarizing their PIM practices and usage of WM.  Then, \textbf{Section~\ref{main-study:wm-analysis}} focuses in detail on the evaluation results, and  \textbf{Section~\ref{main-study:longitudinal}} reports findings relating to longitudinal issues.
+Finally, \textbf{Section~\ref{main-study:discussion}} offers a discussion of the results.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FIN THESIS Chapter 6 MAIN STUDY Introduction and Aims
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ 
+
+

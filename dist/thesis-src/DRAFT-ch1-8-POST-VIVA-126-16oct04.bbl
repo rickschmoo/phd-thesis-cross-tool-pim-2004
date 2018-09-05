@@ -1,0 +1,801 @@
+\begin{thebibliography}{129}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+
+\bibitem[Abrams et~al.(1998)Abrams, Baecker, and Chignell]{da:98}
+D.~Abrams, R.~Baecker, and M.~Chignell.
+\newblock Information archiving with bookmarks: personal web space construction
+  and organization.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 41--48. ACM Press, 1998.
+
+\bibitem[Adar et~al.(1999)Adar, Kargar, and Stein]{haystack:99}
+E.~Adar, D.~Kargar, and L.~A. Stein.
+\newblock Haystack: per-user information environments.
+\newblock In {\em Proceedings of the eighth international conference on
+  Information and knowledge management}, pages 413--422. ACM Press, 1999.
+
+\bibitem[Akin et~al.(1987)Akin, Baykan, and Rao]{akin:87}
+O.~Akin, C.~Baykan, and D.~Rao.
+\newblock Structure of a directory space: A case study with a unix operating
+  system.
+\newblock {\em International Journal of Man-Machine Studies}, 26:\penalty0
+  361--382, 1987.
+
+\bibitem[Alexander(1965)]{alexander:65}
+C.~Alexander.
+\newblock A city is not a tree.
+\newblock {\em Design}, 206:\penalty0 46--55, 1965.
+
+\bibitem[Allen(2003)]{Allen:03}
+D.~Allen.
+\newblock {\em Getting Things Done: The Art of Stress-Free Productivity}.
+\newblock Penguin Books, 2003.
+
+\bibitem[Balter(1997)]{ob:97}
+O.~Balter.
+\newblock Strategies for organising email messages.
+\newblock In {\em Proceedings of the HCI '97 conference on People and Computers
+  XII}, pages 21--38. Springer, 1997.
+
+\bibitem[Balter(2000)]{ob:00}
+O.~Balter.
+\newblock Keystroke level analysis of email message organization.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 105--112. ACM Press, 2000.
+
+\bibitem[Barnard et~al.(2000)Barnard, May, Duke, and Duce]{barnard:00}
+P.~Barnard, J.~May, D.~Duke, and D.~Duce.
+\newblock Systems, interactions, and macrotheory.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  7\penalty0 (2):\penalty0 222--262, 2000.
+
+\bibitem[Barreau(1995)]{barreau:95}
+D.~Barreau.
+\newblock Context as a factor in personal information management systems.
+\newblock {\em Journal of the American Society for Information Science},
+  46\penalty0 (5):\penalty0 327--339, 1995.
+
+\bibitem[Barreau and Nardi(1995)]{bn:95}
+D.~Barreau and B.~A. Nardi.
+\newblock Finding and reminding: file organization from the desktop.
+\newblock {\em ACM SIGCHI Bulletin}, 27\penalty0 (3):\penalty0 39--43, 1995.
+
+\bibitem[Bellotti et~al.(2003)Bellotti, Ducheneaut, Howard, and
+  Smith]{Bellotti:03}
+V.~Bellotti, N.~Ducheneaut, M.~Howard, and I.~Smith.
+\newblock Taking email to task: The design and evaluation of a task management
+  centered email tool.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}. ACM Press, 2003.
+
+\bibitem[Bellotti et~al.(2002)Bellotti, Ducheneaut, Howard, Smith, and
+  Neuwirth]{Bellotti:02a}
+V.~Bellotti, N.~Ducheneaut, M.~Howard, I.~Smith, and C.~Neuwirth.
+\newblock Innovation in extremis: evolving an application for the critical work
+  of email and information management.
+\newblock In {\em Proceedings of the conference on Designing interactive
+  systems}, pages 181--192. ACM Press, 2002.
+
+\bibitem[Bellotti and Smith(2000)]{Bellotti:00}
+V.~Bellotti and I.~Smith.
+\newblock Informing the design of an information management system with
+  iterative fieldwork.
+\newblock In {\em Conference proceedings on Designing interactive systems :
+  processes, practices, methods, and techniques}, pages 227--237. ACM Press,
+  2000.
+
+\bibitem[Bergman et~al.(2003)Bergman, Beyth-Marom, and Nachmias]{Bergman:03}
+O.~Bergman, R.~Beyth-Marom, and R.~Nachmias.
+\newblock The user-subjective approach to personal information management
+  systems.
+\newblock {\em Journal of the American Society for Information Science and
+  Technology}, 54\penalty0 (9), 2003.
+
+\bibitem[Bergman et~al.(2004)Bergman, Boardman, Gwizdka, and Jones]{rpb:04b}
+O.~Bergman, R.~Boardman, J.~Gwizdka, and W.~Jones.
+\newblock Personal information management {SIG}.
+\newblock In {\em Extended Abstracts of CHI 2004}. ACM Press, 2004.
+
+\bibitem[Berlin et~al.(1993)Berlin, Jeffries, O'Day, Paepcke, and
+  Wharton]{berlin:93}
+L.~M. Berlin, R.~Jeffries, V.~L. O'Day, A.~Paepcke, and C.~Wharton.
+\newblock Where did you put it? issues in the design and use of a group memory.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 23--30. ACM Press, 1993.
+
+\bibitem[Blandford and Green(2001)]{bg:01}
+A.~Blandford and T.~Green.
+\newblock Group and individual time management tools: what you get is not what
+  you need.
+\newblock {\em Personal and Ubiquitous Computing}, 5:\penalty0 213--230, 2001.
+
+\bibitem[Blomberg et~al.(1996)Blomberg, Suchman, and Trigg]{blomberg:96}
+J.~Blomberg, L.~Suchman, and R.~Trigg.
+\newblock Reflections on a work-oriented design project.
+\newblock {\em Human-Computer Interaction}, 11\penalty0 (3):\penalty0 237--265,
+  1996.
+
+\bibitem[Boardman(2001{\natexlab{a}})]{rpb:01b}
+R.~Boardman.
+\newblock Category overlap between hierarchies in user workspace.
+\newblock In {\em Interact 2001, the Eighth IFIP TC 13 International Conference
+  on Human-Computer Interaction}, 2001{\natexlab{a}}.
+
+\bibitem[Boardman(2001{\natexlab{b}})]{rpb:01a}
+R.~Boardman.
+\newblock Multiple hierarchies in user workspace.
+\newblock In {\em CHI '01 extended abstracts on Human factors in computer
+  systems}, pages 403--404. ACM Press, 2001{\natexlab{b}}.
+
+\bibitem[Boardman(2002{\natexlab{a}})]{rpb:02b}
+R.~Boardman.
+\newblock Workspaces that work: the need for integrated personal information
+  management.
+\newblock In {\em Proceedings of the Sixth Human Centred Technology
+  Postgraduate Workshop}, 2002{\natexlab{a}}.
+
+\bibitem[Boardman(2002{\natexlab{b}})]{rpb:02a}
+R.~Boardman.
+\newblock Workspaces that work: towards unified personal information
+  management.
+\newblock In {\em Proceedings of HCI2002, People and Computers XVI - Memorable
+  yet Invisible, Volume 2}, 2002{\natexlab{b}}.
+
+\bibitem[Boardman and Sasse(2004)]{rpb:04a}
+R.~Boardman and M.~A. Sasse.
+\newblock ``{S}tuff goes into the computer and doesn't come out'' a cross-tool
+  study of personal information management.
+\newblock In {\em Proceedings of CHI 2004}. ACM Press, 2004.
+
+\bibitem[Boardman et~al.(2002)Boardman, Spence, and Sasse]{rpb:02c}
+R.~Boardman, R.~Spence, and M.~A. Sasse.
+\newblock Life beyond the mailbox: A cross-tool perspective on personal
+  information management.
+\newblock In {\em CSCW 2002 Workshop: Redesigning Email for the 21st Century},
+  2002.
+
+\bibitem[Boardman et~al.(2003)Boardman, Spence, and Sasse]{rpb:03a}
+R.~Boardman, R.~Spence, and M.~A. Sasse.
+\newblock Too many hierarchies? the daily struggle for control of the
+  workspace.
+\newblock In {\em Proceedings of Human-Computer Interaction International
+  2003}. Lawrence Erlbaum Associates, 2003.
+
+\bibitem[Bowker and Star(1999)]{bs:99}
+G.~C. Bowker and S.~L. Star.
+\newblock {\em Sorting things out: Classification and its consequences}.
+\newblock MIT Press, Cambridge, 1999.
+
+\bibitem[Bush(1945)]{bush:45}
+V.~Bush.
+\newblock As we may think.
+\newblock In {\em From Memex to hypertext: Vannevar Bush and the mind's
+  machine}, pages 85--110. Academic Press Professional, Inc., 1945.
+
+\bibitem[Carroll(1982)]{jc:82}
+J.~M. Carroll.
+\newblock Creating names for personal files in an interactive computing
+  environment.
+\newblock {\em International Journal of Man-Machine Studies}, 16:\penalty0
+  405--438, 1982.
+
+\bibitem[Carroll(1997)]{Carroll-review:97}
+J.~M. Carroll.
+\newblock Human-computer interaction: Psychology as a science of design.
+\newblock {\em International Journal of Human-Computer Studies}, 46:\penalty0
+  501--522, 1997.
+
+\bibitem[Carroll(2000)]{Carroll:00}
+J.~M. Carroll.
+\newblock {\em Making Use. Scenario-Based Design of Human-Computer
+  Interactions}.
+\newblock MIT Press, 2000.
+
+\bibitem[Carroll et~al.(1991)Carroll, Kellogg, and Rosson]{Carroll-cycle:91}
+J.~M. Carroll, W.~A. Kellogg, and M.~B. Rosson.
+\newblock The task-artifact cycle.
+\newblock In {\em Designing interaction: psychology at the human-computer
+  interface}, pages 74--102. Cambridge University Press, 1991.
+
+\bibitem[Chaffee and Gauch(2000)]{Chaffee:00}
+J.~Chaffee and S.~Gauch.
+\newblock Personal ontologies for web navigation.
+\newblock In {\em Proceedings of the ninth international Conference on
+  Information and Knowledge Management}, pages 227--234. ACM Press, 2000.
+
+\bibitem[Cockburn and McKenzie(2001)]{ac:01}
+A.~Cockburn and B.~McKenzie.
+\newblock {3D} or not {3D}?: evaluating the effect of the third dimension in a
+  document management system.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 434--441. ACM Press, 2001.
+
+\bibitem[Cooper(2003)]{Cooper:03}
+A.~Cooper.
+\newblock {\em About Face 2.0: The Essentials of User Interface Design}.
+\newblock John Wiley \& Sons, Inc., 2003.
+
+\bibitem[Corbat{\'{o}} et~al.(1962)Corbat{\'{o}}, Daggett, and Daley]{ctss:62}
+F.~J. Corbat{\'{o}}, M.~M. Daggett, and R.~C. Daley.
+\newblock An experimental time-sharing system.
+\newblock In {\em Proceedings of the Spring Joint Computer Conference}, pages
+  335--344, 1962.
+
+\bibitem[Daley and Neumann(1965)]{multics:65}
+R.~C. Daley and P.~G. Neumann.
+\newblock A general purpose file system for secondary storage.
+\newblock In {\em Proceedings of 1965 Fall Joint Computer Conference}, pages
+  212--230, 1965.
+
+\bibitem[Dey et~al.(1998)Dey, Abowd, and Wood]{dey:98}
+A.~Dey, G.~Abowd, and A.~Wood.
+\newblock Cyberdesk: A framework for providing self-integrating context-aware
+  services.
+\newblock {\em Knowledge Based Systems}, 11\penalty0 (1):\penalty0 3--13, 1998.
+
+\bibitem[Dillon(2001)]{ad:01}
+A.~Dillon.
+\newblock Beyond usability: process, outcome, and affect in {HCI}.
+\newblock {\em Canadian Journal of Information Science}, 26\penalty0
+  (4):\penalty0 57--69, 2001.
+
+\bibitem[Dix(2002)]{dix:02}
+A.~Dix.
+\newblock The ultimate interface and the sums of life?
+\newblock {\em Interfaces}, 50:\penalty0 16, 2002.
+
+\bibitem[Dix et~al.(1997)Dix, Finlay, Abowd, and Beale]{dix-hci:97}
+A.~Dix, J.~Finlay, G.~Abowd, and R.~Beale.
+\newblock {\em Human-computer interaction (Second Edition)}.
+\newblock Prentice-Hall, Inc., 1997.
+
+\bibitem[Dix and Marshall(2003)]{dix:03a}
+A.~Dix and J.~Marshall.
+\newblock At the right time: when to sort web history and bookmarks.
+\newblock In {\em Proceedings of Human Computer Interaction International
+  2003}. Lawrence Erlbaum Associates, 2003.
+
+\bibitem[Dix et~al.(1998)Dix, Wilkinson, and Ramduny]{dix:98}
+A.~Dix, J.~Wilkinson, and D.~Ramduny.
+\newblock Redefining organisational memory - artefacts, and the distribution
+  and coordination of work.
+\newblock In {\em Workshop on Understanding work and designing artefacts},
+  1998.
+
+\bibitem[Dourish et~al.(1999)Dourish, Edwards, LaMarca, and
+  Salisbury]{dourish:99a}
+P.~Dourish, W.~K. Edwards, A.~LaMarca, and M.~Salisbury.
+\newblock Presto: an experimental architecture for fluid interactive document
+  spaces.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  6\penalty0 (2):\penalty0 133--161, 1999.
+
+\bibitem[Ducheneaut and Bellotti(2001)]{Ducheneaut:01}
+N.~Ducheneaut and V.~Bellotti.
+\newblock E-mail as habitat: an exploration of embedded personal information
+  management.
+\newblock {\em Interactions}, 8\penalty0 (5):\penalty0 30--38, 2001.
+
+\bibitem[Dumais et~al.(2003)Dumais, Cutrell, Cadiz, Jancke, Sarin, and
+  Robbins]{Dumais:03a}
+S.~T. Dumais, E.~Cutrell, J.~J. Cadiz, G.~Jancke, R.~Sarin, and D.~C. Robbins.
+\newblock Stuff {I}'ve {S}een: A system for personal information retrieval and
+  re-use.
+\newblock In {\em Proceedings SIGIR'03}. ACM Press, 2003.
+
+\bibitem[Dumais and Jones(1985)]{Dumais:85}
+S.~T. Dumais and W.~P. Jones.
+\newblock A comparison of symbolic and spatial filing.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 127--130. ACM Press, 1985.
+
+\bibitem[Economist(2002)]{Economist:03}
+Economist.
+\newblock The paperless office: In praise of clutter.
+\newblock {\em Economist}, December 2002.
+
+\bibitem[Engelbart(1962)]{engelbart:62}
+D.~C. Engelbart.
+\newblock Augmenting human intellect: A conceptual framework.
+\newblock Summary Report {AFOSR}-3223 - Contract AF49(638)-1024, {SRI} Project
+  3578, Air Force Office of Scientific Research, Stanford Research Institute,
+  Menlo Park, {CA}, October 1962.
+
+\bibitem[Eysenck and Keane(1990)]{ek:90}
+M.~W. Eysenck and M.~T. Keane.
+\newblock {\em Cognitive Psychology: A Student's Handbook}.
+\newblock Lawrence Erlbaum, 1990.
+
+\bibitem[Feather and Sturges(2003)]{IEILS:03}
+J.~Feather and P.~Sturges.
+\newblock {\em International Encyclopedia of Information and Library Science}.
+\newblock Routledge (Taylor \& Francis Group), 2003.
+
+\bibitem[Fertig et~al.(1996)Fertig, Freeman, and Gelernter]{Gelernter:96b}
+S.~Fertig, E.~Freeman, and D.~Gelernter.
+\newblock ``{F}inding and reminding'' reconsidered.
+\newblock {\em ACM SIGCHI Bulletin}, 28\penalty0 (1):\penalty0 66--69, 1996.
+
+\bibitem[Fitzgerald(2003)]{Chandler:03}
+M.~Fitzgerald.
+\newblock Trash your desktop.
+\newblock {\em MIT Technology Review}, 2003.
+
+\bibitem[Freeman and Gelernter(1996)]{Gelernter:96a}
+E.~Freeman and D.~Gelernter.
+\newblock Lifestreams: a storage model for personal data.
+\newblock {\em ACM SIGMOD Record}, 25\penalty0 (1):\penalty0 80--86, 1996.
+
+\bibitem[Fried(2004)]{Fried:04}
+I.~Fried.
+\newblock Tiger, longhorn search for desktop answers.
+\newblock \textit{CNET News.com}, June 2004.
+\newblock Retrieved June 30, 2004, from
+  \urlBiBTeX{http://news.com.com/2100-1016-5253421.html }.
+
+\bibitem[Gates(2003)]{Gates:03}
+B.~Gates.
+\newblock Comdex conference keynote, November 2003.
+\newblock Retrieved February 1, 2004, from
+  \urlBiBTeX{http://www.microsoft.com/billgates/default.asp}.
+
+\bibitem[Gemmell et~al.(2002)Gemmell, Bell, Lueder, Drucker, and Wong]{bell:02}
+J.~Gemmell, G.~Bell, R.~Lueder, S.~Drucker, and C.~Wong.
+\newblock My{L}ife{B}its: fulfilling the {M}emex vision.
+\newblock In {\em Proceedings of the 2002 ACM workshops on Multimedia}, pages
+  235--238. ACM Press, 2002.
+
+\bibitem[Giampaolo(1998)]{Giampaolo:98}
+D.~Giampaolo.
+\newblock {\em Practical File System Design with the Be File System}.
+\newblock Morgan Kaufmann Publishers Inc., 1998.
+
+\bibitem[Gifford et~al.(1991)Gifford, Jouvelot, Sheldon, and James
+  W.~O'Toole]{semanticfs:91}
+D.~K. Gifford, P.~Jouvelot, M.~A. Sheldon, and J.~James W.~O'Toole.
+\newblock Semantic file systems.
+\newblock In {\em Proceedings of the thirteenth ACM symposium on Operating
+  systems principles}, pages 16--25. ACM Press, 1991.
+
+\bibitem[Gottlieb and Dilevko(2001)]{gd:01}
+L.~Gottlieb and J.~Dilevko.
+\newblock User preferences in the classification of electronic bookmarks:
+  Implications for a shared system.
+\newblock {\em Journal of the American Society for Information Science and
+  Technology}, 52\penalty0 (7):\penalty0 517--535, 2001.
+
+\bibitem[Gwizdka(2002)]{Gwizdka:02}
+J.~Gwizdka.
+\newblock Reinventing the inbox: supporting the management of pending tasks in
+  email.
+\newblock In {\em CHI '02 extended abstracts on Human factors in computer
+  systems}, pages 550--551. ACM Press, 2002.
+
+\bibitem[Hewett et~al.(1996)Hewett, Baecker, Card, Carey, Gasen, Mantei,
+  Perlman, Strong, and Verplank]{acm:96}
+T.~Hewett, R.~Baecker, S.~Card, T.~Carey, J.~Gasen, M.~Mantei, G.~Perlman,
+  G.~Strong, and W.~Verplank.
+\newblock {ACM SIGCHI} curricula for human-computer interaction.
+\newblock Technical report, {ACM SIGCHI}, 1996.
+
+\bibitem[Hollan et~al.(2000)Hollan, Hutchins, and Kirsh]{dc:00}
+J.~Hollan, E.~Hutchins, and D.~Kirsh.
+\newblock Distributed cognition: toward a new foundation for human-computer
+  interaction research.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  7\penalty0 (2):\penalty0 174--196, 2000.
+
+\bibitem[Hurst(2000)]{web-good-easy:01}
+M.~Hurst.
+\newblock The good easy: how to set up a mac, March 2000.
+\newblock Retrieved January 24, 2002, from
+  \urlBiBTeX{http://www.winterspeak.com/columns/goodeasy.txt}.
+
+\bibitem[Isaacs et~al.(2002)Isaacs, Walendowski, Whittaker, Schiano, and
+  Kamm]{Whittaker-im:02}
+E.~Isaacs, A.~Walendowski, S.~Whittaker, D.~J. Schiano, and C.~Kamm.
+\newblock The character, functions, and styles of instant messaging in the
+  workplace.
+\newblock In {\em Proceedings of the 2002 ACM conference on Computer supported
+  cooperative work}, pages 11--20. ACM Press, 2002.
+
+\bibitem[Jacob(2001)]{jacob:01}
+E.~Jacob.
+\newblock The everyday world of work: Two approaches to the investigation of
+  classification in context.
+\newblock {\em Journal of Documentation}, 57\penalty0 (3), 2001.
+
+\bibitem[Johnson(2002)]{web-sjohnson:02}
+S.~Johnson.
+\newblock Is the computer desktop an antique?
+\newblock \textit{Slate Website}, December 2002.
+\newblock Retrieved December 11, 2002, from
+  \urlBiBTeX{http://slate.msn.com/id/2075219/}.
+
+\bibitem[Jones(2004)]{Jones:04}
+W.~Jones.
+\newblock Finders, keepers? the present and future perfect in support of
+  personal information management.
+\newblock {\em First Monday}, 9\penalty0 (3), 2004.
+\newblock Retrieved March 10, 2004 from
+  \urlBiBTeX{http://www.firstmonday.org/issues/issue9_3/jones/index.html}.
+
+\bibitem[Jones et~al.(2001)Jones, Bruce, and Dumais]{kftf:01}
+W.~Jones, H.~Bruce, and S.~Dumais.
+\newblock Keeping found things found on the web.
+\newblock In {\em Proceedings of the tenth international conference on
+  Information and knowledge management}, pages 119--126. ACM Press, 2001.
+
+\bibitem[Kaplan et~al.(1990)Kaplan, Kapor, Belove, Landsman, and
+  Drake]{kaplan:90}
+S.~J. Kaplan, M.~D. Kapor, E.~J. Belove, R.~A. Landsman, and T.~R. Drake.
+\newblock Agenda: a personal information manager.
+\newblock {\em Communications of the ACM}, 33\penalty0 (7):\penalty0 105--116,
+  1990.
+
+\bibitem[Kaptelinin(1996)]{Kaptelinin:96}
+V.~Kaptelinin.
+\newblock Creating computer-based work environments: an empirical study of
+  macintosh users.
+\newblock In {\em Proceedings of the 1996 conference on ACM SIGCPR/SIGMIS
+  conference}, pages 360--366. ACM Press, 1996.
+
+\bibitem[Kaptelinin(2003)]{Kaptelinin:03}
+V.~Kaptelinin.
+\newblock Umea: Translating interaction histories into project contexts.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}. ACM Press, 2003.
+
+\bibitem[Kidd(1994)]{kidd:94}
+A.~Kidd.
+\newblock The marks are on the knowledge worker.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 186--191. ACM Press, 1994.
+
+\bibitem[Kirsh(2001)]{dk:01}
+D.~Kirsh.
+\newblock The context of work.
+\newblock {\em Human Computer Interaction}, 16, 2001.
+
+\bibitem[Kwasnik(1991)]{kwas:91}
+B.~Kwasnik.
+\newblock The importance of factors that are document attributes in the
+  organisation of personal documents.
+\newblock {\em Journal of Documentation}, 47\penalty0 (4):\penalty0 389--398,
+  1991.
+
+\bibitem[Lansdale(1988)]{ml:88}
+M.~Lansdale.
+\newblock The psychology of personal information management.
+\newblock {\em Applied Ergonomics}, 19\penalty0 (1):\penalty0 55--66, 1988.
+
+\bibitem[Lansdale and Edmonds(1992)]{ml:92}
+M.~Lansdale and E.~Edmonds.
+\newblock Using memory for events in the design of personal filing systems.
+\newblock {\em International Journal of Man-Machine Studies}, 36\penalty0
+  (1):\penalty0 97--126, 1992.
+
+\bibitem[Levy(2001)]{levy:01}
+D.~M. Levy.
+\newblock {\em Scrolling Forward: Making Sense of Documents in the Digital
+  Age}.
+\newblock Arcade Publishing, 2001.
+
+\bibitem[Mackay(1988)]{wm:88}
+W.~E. Mackay.
+\newblock Diversity in the use of electronic mail: a preliminary inquiry.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 6\penalty0
+  (4):\penalty0 380--397, 1988.
+
+\bibitem[Malone(1983)]{tm:83}
+T.~W. Malone.
+\newblock How do people organize their desks?: Implications for the design of
+  office information systems.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 1\penalty0
+  (1):\penalty0 99--112, 1983.
+
+\bibitem[Mander et~al.(1992)Mander, Salomon, and Wong]{piles:92}
+R.~Mander, G.~Salomon, and Y.~Y. Wong.
+\newblock A pile metaphor for supporting casual organization of information.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 627--634. ACM Press, 1992.
+
+\bibitem[McGrenere et~al.(2002)McGrenere, Baecker, and Booth]{mcgrenere:02}
+J.~McGrenere, R.~M. Baecker, and K.~S. Booth.
+\newblock An evaluation of a multiple interface design solution for bloated
+  software.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 164--170. ACM Press, 2002.
+
+\bibitem[Microsoft Longhorn()]{winfs:03}
+Microsoft Longhorn.
+\newblock {\em The Windows File System}, 2003.
+\newblock Retrieved November 15, 2003, from
+  \urlBiBTeX{http://msdn.microsoft.com/Longhorn/understanding/pillars/WinFS/de%
+fault.aspx?pull=/library/en-us/dnaero/html/wux_topic_storage.asp}.
+
+\bibitem[Microsoft .NET My Services()]{myservices:01}
+Microsoft .NET My Services.
+\newblock Building user-centric experiences: an introduction to .{NET} {M}y
+  {S}ervices, 2001.
+\newblock Retrieved May 16, 2002, from
+  \urlBiBTeX{http://www.microsoft.com/netservices/userexperiences.asp}.
+
+\bibitem[Nardi(1995)]{bn-at:95}
+B.~A. Nardi.
+\newblock {\em Context and consciousness: activity theory and human-computer
+  interaction}.
+\newblock Massachusetts Institute of Technology, 1995.
+
+\bibitem[Nardi et~al.(1998)Nardi, Miller, and Wright]{bn:98}
+B.~A. Nardi, J.~R. Miller, and D.~J. Wright.
+\newblock Collaborative, programmable intelligent agents.
+\newblock {\em Communications of the ACM}, 41\penalty0 (3):\penalty0 96--104,
+  1998.
+
+\bibitem[Nardi et~al.(2002)Nardi, Whittaker, Isaacs, Creech, Johnson, and
+  Hainsworth]{Whittaker-contactmap:02b}
+B.~A. Nardi, S.~Whittaker, E.~Isaacs, M.~Creech, J.~Johnson, and J.~Hainsworth.
+\newblock Integrating communication and information through {C}ontactmap.
+\newblock {\em Communications of the ACM}, 45\penalty0 (4):\penalty0 89--95,
+  2002.
+
+\bibitem[Nelson(1999)]{tn:99}
+T.~H. Nelson.
+\newblock Xanalogical structure, needed now more than ever: parallel documents,
+  deep links to content, deep versioning, and deep re-use.
+\newblock {\em ACM Computing Surveys (CSUR)}, 31\penalty0 (4es):\penalty0 33,
+  1999.
+
+\bibitem[Newman and Lamming(1995)]{newman:95}
+W.~M. Newman and M.~Lamming.
+\newblock {\em Interactive System Design}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1995.
+
+\bibitem[Nielsen(1996)]{nielsen:96}
+J.~Nielsen.
+\newblock The death of file systems, February 1996.
+\newblock Retrieved December 6, 2001, from
+  \urlBiBTeX{http://www.useit.com/papers/filedeath.html}.
+
+\bibitem[Norman(1993)]{norman:93}
+D.~A. Norman.
+\newblock {\em Things That Make Us Smart: defending human attributes in the age
+  of the machine}.
+\newblock Addison-Wesley, 1993.
+
+\bibitem[Norman(1998)]{norman:98}
+D.~A. Norman.
+\newblock {\em The Invisible Computer}.
+\newblock MIT Press, 1998.
+
+\bibitem[Palen(1998)]{palen:98}
+L.~Palen.
+\newblock Calendars on the new frontier: Challenges of groupware technology.
+\newblock Technical report, unpublished PhD Thesis, Departmnent of Information
+  and Computer Science, University of California, Irvine, 1998.
+
+\bibitem[Payne(1993)]{sp:93}
+S.~Payne.
+\newblock Understanding calendar use.
+\newblock {\em Human Computer Interaction}, 8\penalty0 (2):\penalty0 83--100,
+  1993.
+
+\bibitem[Pirolli and Card(1999)]{pirolli:99}
+P.~Pirolli and S.~Card.
+\newblock Information foraging.
+\newblock {\em Psychological Review}, 106:\penalty0 643--675, 1999.
+
+\bibitem[Preece et~al.(2002)Preece, Rogers, and Sharp]{preece:02}
+J.~Preece, Y.~Rogers, and H.~Sharp.
+\newblock {\em Interaction Design}.
+\newblock John Wiley \& Sons, Inc., 2002.
+
+\bibitem[Quan et~al.(2003)Quan, Bakshi, Huynh, and Karger]{haystack:03b}
+D.~Quan, K.~Bakshi, D.~Huynh, and D.~R. Karger.
+\newblock User interfaces for supporting multiple categorization.
+\newblock In {\em Proceedings of Interact 2003}, 2003.
+
+\bibitem[Rao et~al.(1994)Rao, Card, Johnson, Klotz, and Trigg]{rao:94}
+R.~Rao, S.~K. Card, W.~Johnson, L.~Klotz, and R.~H. Trigg.
+\newblock Protofoil: storing and finding the information worker's paper
+  documents in an electronic file cabinet.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 180--185. ACM Press, 1994.
+
+\bibitem[Raskin(2000)]{jr:00}
+J.~Raskin.
+\newblock {\em The Humane Interface}.
+\newblock ACM Press, 2000.
+
+\bibitem[Ringel et~al.(2003)Ringel, Cutrell, Dumais, and Horvitz]{Dumais:03b}
+M.~Ringel, E.~Cutrell, S.~T. Dumais, and E.~Horvitz.
+\newblock Milestones in time: The value of landmarks in retrieving information
+  from personal stores.
+\newblock In {\em Proceedings of INTERACT'03}, 2003.
+
+\bibitem[Ritchie and Thompson(1974)]{ritchie:74}
+D.~M. Ritchie and K.~Thompson.
+\newblock The {UNIX} time-sharing system.
+\newblock {\em Communications of the ACM}, 17\penalty0 (7):\penalty0 365--37,
+  1974.
+
+\bibitem[Robertson et~al.(1998)Robertson, Czerwinski, Larson, Robbins, Thiel,
+  and van Dantzich]{gr:98}
+G.~Robertson, M.~Czerwinski, K.~Larson, D.~C. Robbins, D.~Thiel, and M.~van
+  Dantzich.
+\newblock Data mountain: using spatial memory for document management.
+\newblock In {\em Proceedings of the 11th annual ACM symposium on User
+  interface software and technology}, pages 153--162. ACM Press, 1998.
+
+\bibitem[Robson(2001)]{Robson:01}
+C.~Robson.
+\newblock {\em Real World Research}.
+\newblock Blackwell Publishers, 2001.
+
+\bibitem[Rodden and Wood(2003)]{kr:03}
+K.~Rodden and K.~Wood.
+\newblock How do people manage their digital photographs?
+\newblock In {\em Proceedings of the SIGCHI 2003 conference on Human factors in
+  computing systems}. ACM Press, 2003.
+
+\bibitem[Rogers(2004)]{rogers:04}
+Y.~Rogers.
+\newblock New theoretical approaches for {HCI}.
+\newblock {\em To appear in ARIST: Annual Review of Information Science and
+  Technology}, 38, 2004.
+
+\bibitem[Rosch(1978)]{er:78}
+E.~Rosch.
+\newblock Principles of categorization.
+\newblock In E.~Rosch and B.~Lloyd, editors, {\em Cognition and
+  Categorization}. Erlbaum, Hillsdale, NJ, 1978.
+
+\bibitem[Rosenberg(1999)]{web-rosenberg:99}
+S.~Rosenberg.
+\newblock Lets get this straight: personal information mismanagement.
+\newblock \textit{Salon Website}, March 1999.
+\newblock Retrieved June 22, 2001, from
+  \urlBiBTeX{www.salonmagazine.com/21st/rose/ 1999/03/05straight.html}.
+
+\bibitem[Sasse(1997)]{Sasse:97}
+M.~A. Sasse.
+\newblock Eliciting and describing users models of computer systems.
+\newblock Technical report, unpublished PhD Thesis, School of Computer Science,
+  University of Birmingham, 1997.
+
+\bibitem[Segal and Kephart(1999)]{mailcat:99}
+R.~B. Segal and J.~O. Kephart.
+\newblock Mailcat: an intelligent assistant for organizing e-mail.
+\newblock In {\em Proceedings of the third annual conference on Autonomous
+  Agents}, pages 276--282. ACM Press, 1999.
+
+\bibitem[Sellen and Harper(2001)]{sellen:01}
+A.~Sellen and R.~Harper.
+\newblock {\em The myth of the paperless office}.
+\newblock MIT Press, 2001.
+
+\bibitem[Shneiderman and Maes(1997)]{Shneiderman:97}
+B.~Shneiderman and P.~Maes.
+\newblock Direct manipulation vs. interface agents.
+\newblock {\em Interactions}, 4\penalty0 (6):\penalty0 42--61, 1997.
+
+\bibitem[Shneiderman and Plaisant(1994)]{Shneiderman:94}
+B.~Shneiderman and C.~Plaisant.
+\newblock The future of graphic user interfaces: personal role managers.
+\newblock In {\em Proceedings of the conference on People and computers IX},
+  pages 3--8. Cambridge University Press, 1994.
+
+\bibitem[SixDegrees()]{SixDegrees}
+SixDegrees.
+\newblock Creo {S}ix{D}egrees.
+\newblock Retrieved May 16, 2003, from
+  \urlBiBTeX{http://www2.creo.com/sixdegrees/}.
+
+\bibitem[Smith et~al.(1982)Smith, Irby, Kimball, Verplank, and
+  Harlem]{smith:82}
+D.~C.~S. Smith, C.~Irby, R.~Kimball, B.~Verplank, and E.~Harlem.
+\newblock Designing the {Star} user interface.
+\newblock {\em BYTE}, 7\penalty0 (4):\penalty0 242--282, Apr. 1982.
+
+\bibitem[Sutcliffe(2000)]{Sutcliffe:00}
+A.~Sutcliffe.
+\newblock On the effective use and reuse of {HCI} knowledge.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  7\penalty0 (2):\penalty0 197--221, 2000.
+
+\bibitem[Swierk et~al.(2000)Swierk, Kiciman, Laviano, and Baker]{roma:00}
+E.~Swierk, E.~Kiciman, V.~Laviano, and M.~Baker.
+\newblock The {R}oma personal metadata service.
+\newblock In {\em Proceedings of the Third IEEE Workshop on Mobile Computing
+  Systems and Applications (WMCSA)}. IEEE, 2000.
+
+\bibitem[Wadlow(1981)]{wadlow:81}
+T.~Wadlow.
+\newblock The {X}erox {A}lto computer.
+\newblock {\em BYTE}, 6\penalty0 (9):\penalty0 58--68, 1981.
+
+\bibitem[Weiss(1997)]{Weiss:97}
+S.~Weiss.
+\newblock Glossary of information retrieval, 1997.
+\newblock Retrieved January 24, 2004, from
+  \urlBiBTeX{www.cs.jhu.edu/~weiss/glossary.html}.
+
+\bibitem[Whitefield et~al.(1993)Whitefield, Esgate, Denley, and
+  Byerley]{Whitefield:93}
+A.~Whitefield, A.~Esgate, I.~Denley, and P.~Byerley.
+\newblock On distinguishing work tasks and enabling tasks.
+\newblock {\em Interacting with Computers}, 5\penalty0 (3):\penalty0 333--347,
+  1993.
+
+\bibitem[Whittaker(2003)]{Whittaker-personal:03}
+S.~Whittaker.
+\newblock personal communication, 2003.
+
+\bibitem[Whittaker et~al.(2000{\natexlab{a}})Whittaker, Davis, Hirschberg, and
+  Muller]{Whittaker-jotmail:00}
+S.~Whittaker, R.~Davis, J.~Hirschberg, and U.~Muller.
+\newblock Jotmail: a voicemail interface that enables you to see what was said.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 89--96. ACM Press, 2000{\natexlab{a}}.
+
+\bibitem[Whittaker and Hirschberg(2001)]{Whittaker-paper:01}
+S.~Whittaker and J.~Hirschberg.
+\newblock The character, value, and management of personal paper archives.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  8\penalty0 (2):\penalty0 150--170, 2001.
+
+\bibitem[Whittaker et~al.(2002)Whittaker, Jones, and
+  Terveen]{Whittaker-contacts:02}
+S.~Whittaker, Q.~Jones, and L.~Terveen.
+\newblock Contact management: identifying contacts to support long-term
+  communication.
+\newblock In {\em Proceedings of the 2002 ACM conference on Computer supported
+  cooperative work}, pages 216--225. ACM Press, 2002.
+
+\bibitem[Whittaker and Sidner(1996)]{Whittaker-email:96}
+S.~Whittaker and C.~Sidner.
+\newblock Email overload: exploring personal information management of email.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 276--283. ACM Press, 1996.
+
+\bibitem[Whittaker et~al.(2000{\natexlab{b}})Whittaker, Terveen, and
+  Nardi]{Whittaker-rta:00}
+S.~Whittaker, L.~Terveen, and B.~A. Nardi.
+\newblock Let's stop pushing the envelope and start addressing it: a reference
+  task agenda for {HCI}.
+\newblock {\em Human Computer Interaction}, 15:\penalty0 75--106,
+  2000{\natexlab{b}}.
+
+\bibitem[Wilson(1999)]{wilson:99}
+T.~Wilson.
+\newblock Models in information behaviour research.
+\newblock {\em Journal of Documentation}, 55\penalty0 (3), 1999.
+
+\bibitem[Wilson(2000)]{wilson:00}
+T.~Wilson.
+\newblock Human information behaviour.
+\newblock {\em Informing Science (special issue on Information Science
+  Research)}, 3\penalty0 (2), 2000.
+
+\bibitem[Wilson(2002{\natexlab{a}})]{wilson:02a}
+T.~Wilson.
+\newblock Definition of information management.
+\newblock In J.~Feather and P.~Sturges, editors, {\em International
+  Encyclopedia of Information and Library Science}. London: Routledge,
+  2002{\natexlab{a}}.
+
+\bibitem[Wilson(2002{\natexlab{b}})]{wilson:02b}
+T.~Wilson.
+\newblock The nonsense of ``knowledge management''.
+\newblock {\em Information Research}, 8\penalty0 (1), 2002{\natexlab{b}}.
+
+\bibitem[Wolber et~al.(2002)Wolber, Kepe, and Ranitovic]{wolb:02}
+D.~Wolber, M.~Kepe, and I.~Ranitovic.
+\newblock Exposing document context in the personal web.
+\newblock In {\em Proceedings of the 7th international conference on
+  Intelligent user interfaces}, pages 151--158. ACM Press, 2002.
+
+\end{thebibliography}

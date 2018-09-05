@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{TO PLACE: Evaluation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Notes}:
+%%%%%%%%%%%%%%%
+\begin{itemize}
+	\item  \textit{NB: To place as appropriate in}:
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{itemize}
+		\item Literature Review (Chapter 2)
+		\item Research Agenda (Chapter 4)
+		\item Design and feasibility study (Chapter 5)
+		\item Main Study/Evaluation (Chapter 6)
+		\item Discussion (Chapter 7) -- a reflection on evaluation
+	\end{itemize}
+
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Background}
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{The Need for evaluation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+	\item Need for effective evaluation (reference classic HCI methodology)
+	\item Artifact on its own is not a contribution to knowledge
+	\item Evaluation as theory-building
+\end{itemize}
+
+
+\textbf{Overview: types of evaluation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+	
+	\item What methods are available?
+	\begin{itemize}
+		\item Objective task-centered/task-based evaluations
+		\item Field-trial based evaluations
+	\end{itemize}
+	
+	\item Implications for method -- - discuss pros and cons of each approach (REF: Robson):
+		
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Evaluating PIM tools}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Challenge of evaluating PIM tools}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+	\item Evaluation is difficult (REF)
+	\item The challenges inherent in evaluation, compounded with PIM tools
+	\item Compare with other complex activities, e.g. CSCL, user modelling (REFS)
+	\item Difficulty of evaluation of complex tools/tasks ~\cite{ad:01}. 
+	\item PIM is possibly an extreme.  Numerous methodological implications.
+	\begin{itemize}
+		\item Hinted at by my experiences so far -- exploratory and feasibility studies. Relate lessons from earlier chapters.
+	\end{itemize}
+	
+	\item Need for appropriate evaluation criteria
+	\begin{itemize}
+		\item How to conceive of/define usability for tasks such as PIM?
+		\item Is usbaility an appropriate measure?
+		\item efficiency -- moving towards process (strategies and habits)
+		\item effectiveness -- moving towards outcome (achivement, result)
+		\item satisfaction -- changing towards affect ("`how does it make you feel?"').
+	\end{itemize}
+	
+	\item Implications of cross-tool work -- further complexity and challenges.	
+	\begin{itemize}
+		\item 
+	\end{itemize}
+
+\end{itemize}
+	
+
+\textbf{Examples that have been done}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+	\item Overall lack of evaluations in PIM work, and reasons why -- and in particular lack of evaluation of ambitious systems as a user environment
+	
+	\item Examples that have been done:
+	\begin{itemize}
+		\item Field-work: Rodden
+		\item Laboratory: DataMountain etc., TopicShop~\cite{amento:99,amento:00}
+		\item Consider commercial practice (long-term beta trials). Although typically unpublished.
+	\end{itemize}
+
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Doing the evaluation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Selection here: Field-trial}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+	\item provide evidence for based on nature of PIM, and type of tool
+	\item PROS: consequences apparent only through the course of extended use, more realistic
+	\item CONS: users select own tasks, difficult to compare
+	\item OPTIONS: Long-term/short-term, own material/other peoples' material
+	\item OPTIONS: choice of evaluation metrics -- Critical events/impact on "bugbears"/other problems
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Post-evaluation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Discussion/Post-evaluation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+		\item Reflection on my experiences
+		\item Recommendations for future evaluation work
+\end{itemize}
