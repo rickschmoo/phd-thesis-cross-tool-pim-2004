@@ -1,12 +1,22 @@
-Improving Tool Support for Personal Information Management
-Richard Boardman
-Department of Electrical and Electronic Engineering
-Imperial College London
-University of London
-First supervisor: Prof. Bob Spence (Imperial College London)
-Second supervisor: Prof. Angela Sasse (University College London)
+# Improving Tool Support for Personal Information Management
+## Richard Boardman
 
-Abstract:
+* Department of Electrical and Electronic Engineering
+* Imperial College London
+* University of London
+* First supervisor: Prof. Bob Spence (Imperial College London)
+* Second supervisor: Prof. Angela Sasse (University College London)
+
+## Want a gentle summary?
+
+* Download my paper from CHI 2004: `dist/boardman-chi04.pdf`
+* Boardman, R. and Sasse, M Angela, "Stuff goes into the computer and doesn't come out": a cross-tool study of personal information management", CHI '04 Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, Pages 583-590, Vienna, Austria — April 24 - 29, 2004
+
+## Want the full thesis?
+
+* Here you go! Download `dist/boardman04-thesis.pdf`
+
+## Abstract:
 
 Personal Information Management (PIM) describes the acquisition, organization, and retrieval
 of information by an individual computer user. Studies have shown that many users struggle
