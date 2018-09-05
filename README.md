@@ -1,6 +1,6 @@
 # Improving Tool Support for Personal Information Management
-## Richard Boardman
 
+* Richard Boardman
 * Department of Electrical and Electronic Engineering, Imperial College London, University of London
 * First supervisor: Prof. Bob Spence (Imperial College London)
 * Second supervisor: Prof. Angela Sasse (University College London)
